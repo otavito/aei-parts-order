@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/user.css">
+    <title>Submission</title>
+</head>
+
+<body>
+    <header>
+        <nav class="cabecalho">
+            <div id="logo">
+                <img src="img/logo-aei.png" alt="AEI logo">
+            </div>
+            <div id="botoes">
+                <a href="carrinho.html"><button type="button">Back</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <form action="" class="formulario">
+            <h1>Almost there!</h1>
+
+            <label for="organization">Organization</label>
+            <input type="text" id="organization" name="organization" placeholder="Company name">
+            <span class="error" id="erroOrganization"></span>
+
+            <label for="name">Contact person</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name">
+            <span class="error" id="erroContactName"></span>
+
+            <label for="email">E-mail address</label>
+            <input type="text" id="email" name="email" placeholder="example@email.com">
+            <span class="error" id="erroEmail"></span>
+
+
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+            <span class="error" id="erroPhone"></span>
+
+            <fieldset>
+                <legend>Shipment address</legend>
+
+                <label for="street">Street address</label>
+                <input type="text" id="street" name="street" placeholder="123 Main Street">
+                <span class="error" id="erroStreet"></span>
+
+                <label for="apartment">Apartment / Suite / Unit (optional)</label>
+                <input type="text" id="apartment" name="apartment" placeholder="Apt 4B">
+                <span class="error" id="erroApartment"></span>
+
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" placeholder="New York">
+                <span class="error" id="erroCity"></span>
+
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" maxlength="2" placeholder="NY">
+                <span class="error" id="erroState"></span>
+
+                <label for="zip">ZIP Code</label>
+                <input type="text" id="zip" name="zip" placeholder="10001">
+                <span class="error" id="erroZip"></span>
+
+                <label for="zip">Special instructions</label>
+                <input type="text" id="instructions" name="instructions" placeholder="Anything we need to know?">
+                <span class="error" id="erroZip"></span>
+            </fieldset>
+
+            <button class="button" type="submit">Submit my order</button>
+        </form>
+
+    </main>
+
+    <footer style="display: grid; grid-template-columns: 1fr; grid-auto-rows: 200px;">
+        <div style="background-color: #CECB8F;"></div>
+    </footer>
+
+    <script src="js/validate.js"></script>
+    <script src="js/pedido.js"></script>
+</body>
+
+</html>

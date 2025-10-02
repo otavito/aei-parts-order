@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/carrinho.css">
+    <title>Carrinho</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="cabecalho">
+            <div id="logo">
+                <img src="img/logo-aei.png" alt="AEI logo">
+            </div>
+            <div id="botoes">
+                <a href="home.html"> <button>Back</button> </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="itens" style="display: flex; flex-direction: column; align-items: center;">
+            <h1>Parts order</h1>
+            <table id="tabela-carrinho">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Edit</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+
+        <script>
+            function carregarCarrinho() {
+                const carrinho = JSON.parse(localStorage.getItem("carrinho")) || {};
+                const tbody = document.querySelector("#tabela-carrinho tbody");
+                const botaoCarrinho = document.querySelector(".botao-carrinho");
+                tbody.innerHTML = ""; // Limpa a tabela
+
+                if (Object.keys(carrinho).length === 0) {
+                    // se não tiver itens, esconde o botão
+                    botaoCarrinho.style.display = "none";
+                } else {
+                    // se tiver itens, mostra o botão
+                    botaoCarrinho.style.display = "block";
+                }
+
+                Object.entries(carrinho).forEach(([nome, quantidade]) => {
+                    const tr = document.createElement("tr");
+
+                    tr.innerHTML = `
+                <td>${nome}</td>
+                <td>${quantidade}</td>
+                <td>
+                    <div class="ajustar">
+                        <button class="incrementar">
+                            <img src="img/up.png" alt="Incrementar" style="width: 20px;">
+                        </button>
+                        <button class="decrementar">
+                            <img src="img/down.png" alt="Decrementar" style="width: 20px;">
+                        </button>
+                    </div>
+                </td>
+                <td>
+                    <img class="remover" src="img/trash.png" alt="Remover" style="width: 20px; cursor: pointer;">
+                </td>
+            `;
+
+                    // Incrementar quantidade
+                    tr.querySelector(".incrementar").addEventListener("click", () => {
+                        carrinho[nome]++;
+                        localStorage.setItem("carrinho", JSON.stringify(carrinho));
+                        carregarCarrinho();
+                    });
+
+                    // Decrementar quantidade
+                    tr.querySelector(".decrementar").addEventListener("click", () => {
+                        carrinho[nome]--;
+                        if (carrinho[nome] <= 0) delete carrinho[nome];
+                        localStorage.setItem("carrinho", JSON.stringify(carrinho));
+                        carregarCarrinho();
+                    });
+
+                    // Remover produto
+                    tr.querySelector(".remover").addEventListener("click", () => {
+                        delete carrinho[nome];
+                        localStorage.setItem("carrinho", JSON.stringify(carrinho));
+                        carregarCarrinho();
+                    });
+
+                    tbody.appendChild(tr);
+                });
+            }
+
+            document.addEventListener("DOMContentLoaded", carregarCarrinho);
+        </script>
+
+
+
+        <div class="botao-carrinho">
+            <a href="submission.html" class="btn-cart">Confirm itens</a>
+        </div>
+    </main>
+</body>
+
+</html>

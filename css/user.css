@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    padding: 8rem 5rem 2rem; 
+}
+
+body{
+    font-weight: 600;
+}
+
+/*Cabeçalho*/
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    font-weight: 500;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 2rem;
+
+    position: fixed;   
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white; 
+    z-index: 1000;     
+    border-bottom: 1px solid #ccc; 
+}
+
+#botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+#barraBuscar{
+    justify-content: center;
+}
+
+.cabecalho img{
+    width: 8rem;
+}
+
+.cabecalho a{
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.cabecalho button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cabecalho button:hover{
+    background-color: #2B89ED;
+    transition: 0.3s ease;
+}
+
+/*Formulário*/
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 30%;
+    padding: 2rem 4rem;
+    border: solid 1px #373737;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+label{
+    padding: 5px 0;
+}
+
+.button{
+    background-color: #2B89ED;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+input{
+    margin-bottom: 1rem;
+    border: solid 2px #E0E0E0;
+    border-radius: 5px;
+    font-size: 1rem;
+    height: rem;
+    padding: 10px;
+}
+
+p{
+    margin: 1rem 0;
+}
+
+.error{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+}
+
+.input-error{
+    border-color: red !important;
+}
+
+fieldset {
+    border: 1px solid #ccc;   /* mantém um contorno discreto */
+    border-radius: 8px;       /* cantos arredondados */
+    padding: 20px;            /* afasta o conteúdo da borda */
+    margin-top: 20px;         /* separa do bloco acima */
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;          /* espaço lateral para não grudar na borda */
+    margin-bottom: 15px;      /* afasta dos inputs */
+}
+
+fieldset label,
+fieldset input {
+    margin-top: 10px;
+}

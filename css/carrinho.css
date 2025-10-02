@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    padding: 8rem 5rem 2rem; 
+}
+
+/*Cabeçalho*/
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    font-weight: 500;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 2rem;
+    position: fixed;   
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white; 
+    z-index: 1000;     
+    border-bottom: 1px solid #ccc; 
+
+}
+
+#botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+#barraBuscar{
+    justify-content: center;
+}
+
+.cabecalho img{
+    width: 8rem;
+}
+
+.cabecalho a{
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.cabecalho button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cabecalho button:hover{
+    background-color: #2B89ED;
+    transition: 0.3s ease;
+}
+
+
+.carrinho{
+    background-color: #DBD6A2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.carrinho img{
+    width: 30px;
+    height: 30px;
+    padding: 10px
+}
+
+.carrinho p{
+    padding: 0px 0px 0px 10px
+}
+
+
+/*Itens*/
+
+.itens{
+    padding: 20px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+#itens{
+    width: 50%;
+    margin: 10px;
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    font-weight: bold;
+    text-align: center;
+}
+
+tr:first-child th{
+    border-top: 2px solid #000; 
+}
+
+tr:first-child th{
+    border-bottom: 2px solid #000; 
+    font-weight: bold;
+    text-align: center;
+}
+
+h1{
+    padding: 1rem 0;
+    font-size: 20px;
+}
+
+.ajustar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ajustar button{
+    display: flex; 
+    border: none;
+    cursor: pointer;
+}
+
+.incrementar img,
+.decrementar img{
+    width: 16px; 
+    height: 16px; 
+}
+
+#trash{
+    width: 20px; 
+    height: 20px; 
+    cursor: pointer;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon img{
+    border: solid black 1px;
+    margin-right: 10px;
+    width: 60px; 
+    height: 60px; 
+}
+
+.botao-carrinho {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.btn-cart {
+    background-color: #000000;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.btn-cart:hover {
+    background-color: #2B89ED;
+}
+
+/* Alinha o nome do produto à esquerda */
+#tabela-carrinho td:first-child {
+    text-align: left;
+    padding-left: 10px; /* opcional, para dar um espaçamento */
+}

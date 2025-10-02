@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Cabeçalho*/
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    font-weight: 500;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 2rem;
+
+    position: fixed;   
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white; 
+    z-index: 1000;     
+    border-bottom: 1px solid #ccc; 
+}
+
+#botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+#botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    background-color: white;
+    border: 1px solid #000;
+    display: none;
+    position: absolute;
+    margin-top: 1px;
+    flex-direction: column;
+}
+
+.dropdown-content a:hover{
+    background-color: #2B89ED;
+    transition: 0.3s ease;
+
+}
+
+.dropdown:hover .dropdown-content{
+    display: flex;
+}
+
+.cabecalho img{
+    width: 8rem;
+}
+
+
+.cabecalho a{
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.cabecalho a:hover{
+    text-decoration: underline;
+}
+
+.cabecalho button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.cabecalho button:hover{
+    background-color: #2B89ED;
+    transition: 0.3s ease;
+}
+
+.carrinho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.carrinho img{
+    width: 30px;
+    height: 30px;
+    padding: 10px
+}
+
+.carrinho p{
+    padding: 0px 0px 0px 10px
+}
+
+
+/* Rodapé */
+
+
+
+/*Main*/
+
+main{
+    padding: 9rem 5rem 2rem; 
+}
+
+/*Introdução*/
+
+.introducao img{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.introducao h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+}
+
+.introducao p{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    padding: 20px 0px;
+}
+
+/* Categorias */
+.categoria {
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.categoria-header {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+    border-bottom: 1px solid #2B89ED;
+;
+}
+
+.categoria-content {
+    display: none;
+    padding: 10px;
+
+}
+
+.categoria-content.ativo {
+    display: block;
+}
+
+/* Produtos */
+.produto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.produto:last-child {
+    border-bottom: none;
+}
+
+/* Contador */
+.contador {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contador button {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+}
+
+.contador input {
+    width: 40px;
+    height: 30px; 
+    text-align: center; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    display: flex;            
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;          
+    padding: 0;               
+}
+
+.botao-carrinho {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.btn-cart {
+    background-color: #000000;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.btn-cart:hover {
+    background-color: #2B89ED;
+}
+
+.btn-cart.hidden {
+    display: none; /* botão desaparece */
+}
+
+/* estilo para botão desabilitado */
+.btn-cart.disabled {
+    pointer-events: none;   /* não permite clicar */
+    opacity: 0.5;           /* aparência apagada */
+    cursor: not-allowed;
+}

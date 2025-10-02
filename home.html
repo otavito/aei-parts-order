@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+    <title>Home page</title>
+</head>
+
+<body>
+    <header>
+        <nav class="cabecalho">
+            <div id="logo">
+                <img src="img/logo-aei.png" alt="AEI logo">
+            </div>
+            <div id="botoes">
+                <div class="dropdown">
+                    <a href="#">Products</a>
+                    <div class="dropdown-content">
+                        <a href="#Bolos">Comp. and parts</a>
+                        <a href="#Doces">Power supplies</a>
+                        <a href="#Salgados">Speed drivers</a>
+                        <a href="#Salgados">Sensors</a>
+                        <a href="#Salgados">Scales</a>
+                        <a href="#Salgados">Water meters</a>
+                        <a href="#Salgados">Sensors assembly</a>
+                        <a href="#Salgados">Finis. enclousers</a>
+                        <a href="#Salgados">Finis. boards</a>
+                    </div>
+                </div>
+                <a href="carrinho.html">
+                    <div class="carrinho">
+                        <p>Shopping cart</p>
+                        <img src="img/cart.png" alt="">
+                    </div>
+                </a>
+                <a href="https://www.automatedenvironments.com" target="_blank"> <button>Visit our oficial site</button>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="introducao">
+            <h1>Parts ordering</h1>
+            <p>Welcome to the parts ordering page! Select the desired AEI parts and
+                components you wish to order. Attention: after finishing your order, you
+                will recieve a confirmation email. Wait untill one of our team members
+                reach yout to you to with the actual prices.</p>
+            <img src="img/template.jpg" alt="">
+        </section>
+        <section class="produtos" id="produtos"></section>
+        <div class="botao-carrinho">
+            <a href="carrinho.html" class="btn-cart" id="btn-finish-order">Finish order</a>
+        </div>
+
+
+    </main>
+</body>
+
+<script>
+    async function carregarProdutos() {
+        try {
+            const categoriasResponse = await fetch("js/categories.json");
+            const produtosResponse = await fetch("js/products.json");
+
+            const categorias = await categoriasResponse.json();
+            const produtos = await produtosResponse.json();
+
+            const container = document.getElementById("produtos");
+
+            categorias.forEach(categoria => {
+                // Criar wrapper da categoria
+                const categoriaDiv = document.createElement("div");
+                categoriaDiv.classList.add("categoria");
+
+                // Título da categoria (botão recolhível)
+                const header = document.createElement("button");
+                header.classList.add("categoria-header");
+                header.textContent = categoria.Title;
+
+                // Conteúdo da categoria
+                const content = document.createElement("div");
+                content.classList.add("categoria-content");
+
+                // Filtrar produtos da categoria
+                const produtosDaCategoria = produtos.filter(p => p.ProductCategory === categoria.Title);
+
+                produtosDaCategoria.forEach(prod => {
+                    const produtoDiv = document.createElement("div");
+                    produtoDiv.classList.add("produto");
+
+                    produtoDiv.innerHTML = `
+                    <span>${prod.Title}</span>
+                    <div class="contador">
+                        <button class="menos">-</button>
+                        <input type="number" value="0" min="0" readonly>
+                        <button class="mais">+</button>
+                    </div>
+                `;
+
+                    // Eventos + e -
+                    const menos = produtoDiv.querySelector(".menos");
+                    const mais = produtoDiv.querySelector(".mais");
+                    const input = produtoDiv.querySelector("input");
+
+                    menos.addEventListener("click", () => {
+                        if (parseInt(input.value) > 0) {
+                            input.value = parseInt(input.value) - 1;
+                        }
+                        verificarCarrinhoAtivo();
+                    });
+
+                    mais.addEventListener("click", () => {
+                        input.value = parseInt(input.value) + 1;
+                        verificarCarrinhoAtivo();
+                    });
+
+
+                    content.appendChild(produtoDiv);
+                });
+
+                // Toggle abrir/fechar categoria
+                header.addEventListener("click", () => {
+                    content.classList.toggle("ativo");
+                });
+
+                categoriaDiv.appendChild(header);
+                categoriaDiv.appendChild(content);
+                container.appendChild(categoriaDiv);
+            });
+
+        } catch (error) {
+            console.error("Erro ao carregar produtos:", error);
+        }
+    }
+
+    document.getElementById("btn-finish-order").addEventListener("click", (e) => {
+        e.preventDefault(); // evita o redirecionamento imediato
+
+        let carrinho = JSON.parse(localStorage.getItem("carrinho")) || {};
+
+        // percorre todos os produtos na tela
+        document.querySelectorAll(".produto").forEach(produtoDiv => {
+            const nome = produtoDiv.querySelector("span").textContent;
+            const quantidade = parseInt(produtoDiv.querySelector("input").value);
+
+            if (quantidade > 0) {
+                // se o item já existe, soma com o valor que estava no carrinho
+                carrinho[nome] = (carrinho[nome] || 0) + quantidade;
+            } else if (carrinho[nome]) {
+                // se na tela está 0 mas já existe no carrinho, mantemos
+                // (se quiser que seja removido quando zerar na tela, basta trocar para "delete carrinho[nome];")
+            }
+        });
+
+        // salva no localStorage
+        localStorage.setItem("carrinho", JSON.stringify(carrinho));
+
+        // redireciona para a página do carrinho
+        window.location.href = "carrinho.html";
+    });
+
+    function atualizarCarrinho(produto, quantidade) {
+        let carrinho = JSON.parse(localStorage.getItem("carrinho")) || {};
+
+        if (quantidade > 0) {
+            carrinho[produto] = quantidade; // salva ou atualiza
+        } else {
+            delete carrinho[produto]; // remove se quantidade = 0
+        }
+
+        localStorage.setItem("carrinho", JSON.stringify(carrinho));
+    }
+
+    function verificarCarrinhoAtivo() {
+        let algumSelecionado = false;
+
+        document.querySelectorAll(".produto input").forEach(input => {
+            if (parseInt(input.value) > 0) {
+                algumSelecionado = true;
+            }
+        });
+
+        const btn = document.getElementById("btn-finish-order");
+        if (algumSelecionado) {
+            btn.classList.remove("hidden");
+        } else {
+            btn.classList.add("hidden");
+        }
+    }
+
+
+    document.addEventListener("DOMContentLoaded", carregarProdutos);
+
+
+    document.addEventListener("DOMContentLoaded", () => {
+        carregarProdutos().then(() => verificarCarrinhoAtivo());
+    });
+
+</script>
+
+</html>
