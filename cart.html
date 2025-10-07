@@ -43,13 +43,11 @@
                 const carrinho = JSON.parse(localStorage.getItem("carrinho")) || {};
                 const tbody = document.querySelector("#tabela-carrinho tbody");
                 const botaoCarrinho = document.querySelector(".botao-carrinho");
-                tbody.innerHTML = ""; // Limpa a tabela
+                tbody.innerHTML = ""; 
 
                 if (Object.keys(carrinho).length === 0) {
-                    // se não tiver itens, esconde o botão
                     botaoCarrinho.style.display = "none";
                 } else {
-                    // se tiver itens, mostra o botão
                     botaoCarrinho.style.display = "block";
                 }
 
@@ -74,14 +72,12 @@
                 </td>
             `;
 
-                    // Incrementar quantidade
                     tr.querySelector(".incrementar").addEventListener("click", () => {
                         carrinho[nome]++;
                         localStorage.setItem("carrinho", JSON.stringify(carrinho));
                         carregarCarrinho();
                     });
 
-                    // Decrementar quantidade
                     tr.querySelector(".decrementar").addEventListener("click", () => {
                         carrinho[nome]--;
                         if (carrinho[nome] <= 0) delete carrinho[nome];
@@ -89,7 +85,6 @@
                         carregarCarrinho();
                     });
 
-                    // Remover produto
                     tr.querySelector(".remover").addEventListener("click", () => {
                         delete carrinho[nome];
                         localStorage.setItem("carrinho", JSON.stringify(carrinho));
@@ -103,12 +98,9 @@
             document.addEventListener("DOMContentLoaded", carregarCarrinho);
         </script>
 
-
-
         <div class="botao-carrinho">
             <a href="submission.html" class="btn-cart">Confirm itens</a>
         </div>
     </main>
 </body>
-
 </html>

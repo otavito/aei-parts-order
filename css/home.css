@@ -42,30 +42,6 @@ html {
     gap: 1rem;
 }
 
-.dropdown{
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content{
-    background-color: white;
-    border: 1px solid #000;
-    display: none;
-    position: absolute;
-    margin-top: 1px;
-    flex-direction: column;
-}
-
-.dropdown-content a:hover{
-    background-color: #2B89ED;
-    transition: 0.3s ease;
-
-}
-
-.dropdown:hover .dropdown-content{
-    display: flex;
-}
-
 .cabecalho img{
     width: 8rem;
 }
@@ -110,11 +86,6 @@ html {
 .carrinho p{
     padding: 0px 0px 0px 10px
 }
-
-
-/* Rodapé */
-
-
 
 /*Main*/
 
@@ -239,12 +210,11 @@ main{
 }
 
 .btn-cart.hidden {
-    display: none; /* botão desaparece */
+    display: none; 
 }
 
-/* estilo para botão desabilitado */
 .btn-cart.disabled {
-    pointer-events: none;   /* não permite clicar */
-    opacity: 0.5;           /* aparência apagada */
+    pointer-events: none;   
+    opacity: 0.5;          
     cursor: not-allowed;
 }

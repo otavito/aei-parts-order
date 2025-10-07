@@ -22,13 +22,16 @@
 
     <main>
 
-
         <form action="" class="formulario">
             <h1>Almost there!</h1>
 
             <label for="organization">Organization</label>
             <input type="text" id="organization" name="organization" placeholder="Company name">
             <span class="error" id="erroOrganization"></span>
+
+            <label for="site">Site</label>
+            <input type="text" id="site" name="site" placeholder="Farm name">
+            <span class="error" id="erroSite"></span>
 
             <label for="name">Contact person</label>
             <input type="text" id="name" name="name" placeholder="Enter your full name">
@@ -38,19 +41,23 @@
             <input type="text" id="email" name="email" placeholder="example@email.com">
             <span class="error" id="erroEmail"></span>
 
-
-            <label for="phone">Phone number</label>
+            <label for="phone">Phone number (Optional)</label>
             <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
             <span class="error" id="erroPhone"></span>
 
+            <label for="po">PO (Optional)</label>
+            <input type="text" id="po" name="po" placeholder="Product order">
+            <span class="error" id="erroPO"></span>
+
+
             <fieldset>
-                <legend>Shipment address</legend>
+                <legend>Shipment address (Optional)</legend>
 
                 <label for="street">Street address</label>
                 <input type="text" id="street" name="street" placeholder="123 Main Street">
                 <span class="error" id="erroStreet"></span>
 
-                <label for="apartment">Apartment / Suite / Unit (optional)</label>
+                <label for="apartment">Apartment / Suite / Unit</label>
                 <input type="text" id="apartment" name="apartment" placeholder="Apt 4B">
                 <span class="error" id="erroApartment"></span>
 
@@ -78,4 +85,5 @@
     <script src="js/validate.js"></script>
     <script src="js/pedido.js"></script>
 </body>
+
 </html>
