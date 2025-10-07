@@ -30,7 +30,7 @@
                         <a href="#Salgados">Finis. boards</a>
                     </div>
                 </div>
-                <a href="carrinho.html">
+                <a href="cart.html">
                     <div class="carrinho">
                         <p>Shopping cart</p>
                         <img src="img/cart.png" alt="">
@@ -45,15 +45,12 @@
     <main>
         <section class="introducao">
             <h1>Parts ordering</h1>
-            <p>Welcome to the parts ordering page! Select the desired AEI parts and
-                components you wish to order. Attention: after finishing your order, you
-                will recieve a confirmation email. Wait untill one of our team members
-                reach yout to you to with the actual prices.</p>
+            <p>Welcome to the parts ordering page! Select the AEI parts and components you wish to order. Attention: After completing your order, you will receive a confirmation email. Please wait until one of our team members contacts you with the final prices.</p>
             <img src="img/template.jpg" alt="">
         </section>
         <section class="produtos" id="produtos"></section>
         <div class="botao-carrinho">
-            <a href="carrinho.html" class="btn-cart" id="btn-finish-order">Finish order</a>
+            <a href="cart.html" class="btn-cart" id="btn-finish-order">Finish order</a>
         </div>
 
 
@@ -72,20 +69,17 @@
             const container = document.getElementById("produtos");
 
             categorias.forEach(categoria => {
-                // Criar wrapper da categoria
+
                 const categoriaDiv = document.createElement("div");
                 categoriaDiv.classList.add("categoria");
 
-                // Título da categoria (botão recolhível)
                 const header = document.createElement("button");
                 header.classList.add("categoria-header");
                 header.textContent = categoria.Title;
 
-                // Conteúdo da categoria
                 const content = document.createElement("div");
                 content.classList.add("categoria-content");
 
-                // Filtrar produtos da categoria
                 const produtosDaCategoria = produtos.filter(p => p.ProductCategory === categoria.Title);
 
                 produtosDaCategoria.forEach(prod => {
@@ -101,7 +95,6 @@
                     </div>
                 `;
 
-                    // Eventos + e -
                     const menos = produtoDiv.querySelector(".menos");
                     const mais = produtoDiv.querySelector(".mais");
                     const input = produtoDiv.querySelector("input");
@@ -122,7 +115,6 @@
                     content.appendChild(produtoDiv);
                 });
 
-                // Toggle abrir/fechar categoria
                 header.addEventListener("click", () => {
                     content.classList.toggle("ativo");
                 });
@@ -133,43 +125,37 @@
             });
 
         } catch (error) {
-            console.error("Erro ao carregar produtos:", error);
+            console.error("Error on loading products:", error);
         }
     }
 
     document.getElementById("btn-finish-order").addEventListener("click", (e) => {
-        e.preventDefault(); // evita o redirecionamento imediato
+        e.preventDefault(); 
 
         let carrinho = JSON.parse(localStorage.getItem("carrinho")) || {};
 
-        // percorre todos os produtos na tela
         document.querySelectorAll(".produto").forEach(produtoDiv => {
             const nome = produtoDiv.querySelector("span").textContent;
             const quantidade = parseInt(produtoDiv.querySelector("input").value);
 
             if (quantidade > 0) {
-                // se o item já existe, soma com o valor que estava no carrinho
                 carrinho[nome] = (carrinho[nome] || 0) + quantidade;
             } else if (carrinho[nome]) {
-                // se na tela está 0 mas já existe no carrinho, mantemos
-                // (se quiser que seja removido quando zerar na tela, basta trocar para "delete carrinho[nome];")
             }
         });
 
-        // salva no localStorage
         localStorage.setItem("carrinho", JSON.stringify(carrinho));
 
-        // redireciona para a página do carrinho
-        window.location.href = "carrinho.html";
+        window.location.href = "cart.html";
     });
 
     function atualizarCarrinho(produto, quantidade) {
         let carrinho = JSON.parse(localStorage.getItem("carrinho")) || {};
 
         if (quantidade > 0) {
-            carrinho[produto] = quantidade; // salva ou atualiza
+            carrinho[produto] = quantidade; 
         } else {
-            delete carrinho[produto]; // remove se quantidade = 0
+            delete carrinho[produto]; 
         }
 
         localStorage.setItem("carrinho", JSON.stringify(carrinho));
@@ -191,10 +177,6 @@
             btn.classList.add("hidden");
         }
     }
-
-
-    document.addEventListener("DOMContentLoaded", carregarProdutos);
-
 
     document.addEventListener("DOMContentLoaded", () => {
         carregarProdutos().then(() => verificarCarrinhoAtivo());

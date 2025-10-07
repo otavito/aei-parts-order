@@ -22,26 +22,27 @@ document.addEventListener("DOMContentLoaded", () => {
         };
 
         const itemsHtml = Object.entries(pedido.carrinho)
-            .map(([nome, qtd]) => `${nome} — ${qtd}`)
-            .join("\n");
+            .map(([nome, qtd]) => `<li>${nome} — ${qtd}</li>`)
+            .join("");
 
         const message = `
-Novo pedido AEI:
+            <h1>New Parts Order</h1>
 
-Cliente: ${pedido.dadosCliente.nome}
-Email: ${pedido.dadosCliente.email}
-Telefone: ${pedido.dadosCliente.telefone}
+            <p><strong>Customer Data</strong><br>
+            Name: ${pedido.dadosCliente.nome}<br>
+            Email: ${pedido.dadosCliente.email}<br>
+            Phone: ${pedido.dadosCliente.telefone}</p>
 
-Endereço:
-${pedido.dadosCliente.endereco.rua}, ${pedido.dadosCliente.endereco.apt || ""}
-${pedido.dadosCliente.endereco.cidade} - ${pedido.dadosCliente.endereco.state}, ${pedido.dadosCliente.endereco.cep}
+            <p><strong>Shipping Address</strong><br>
+            ${pedido.dadosCliente.endereco.rua}, ${pedido.dadosCliente.endereco.apt || ""}<br>
+            ${pedido.dadosCliente.endereco.cidade} - ${pedido.dadosCliente.endereco.state}, ${pedido.dadosCliente.endereco.cep}</p>
 
-Itens:
-${itemsHtml}
+            <p><strong>Items Ordered</strong></p>
+            <ul>${itemsHtml}</ul>
 
-Instruções especiais:
-${pedido.dadosCliente.instrucoes || "Nenhuma"}
-    `;
+            <p><strong>Special Instructions</strong><br>
+            ${pedido.dadosCliente.instrucoes || "None"}</p>
+        `;
 
         try {
             const FUNCTION_URL = "https://partsorder-api-hne6dzfudubdfvg0.westus3-01.azurewebsites.net/api/sendEmail";
@@ -51,23 +52,23 @@ ${pedido.dadosCliente.instrucoes || "Nenhuma"}
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
                     to: pedido.dadosCliente.email,
-                    subject: "AEI - Confirmação do seu pedido",
-                    message: message
+                    subject: "AEI - Parts Order Confirmation",
+                    message: message,
+                    isHtml: true 
                 })
             });
-
 
             const data = await response.json();
 
             if (response.ok) {
                 localStorage.setItem("pedidoFinal", JSON.stringify(pedido));
-                window.location.href = "confirmacao.html";
+                window.location.href = "confirmation.html";
             } else {
-                alert("Falha ao enviar o pedido: " + (data?.body || response.statusText));
+                alert("Something went wrong: " + (data?.body || response.statusText));
             }
         } catch (err) {
             console.error(err);
-            alert("Erro ao enviar o pedido.");
+            alert("Something went wrong.");
         }
     });
 });
