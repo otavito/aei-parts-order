@@ -1,13 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.querySelector("form");
+    const submitMessage = document.getElementById("submitMessage");
 
     form.addEventListener("submit", async function (event) {
         event.preventDefault();
 
+        // Mostra mensagem enquanto o pedido é enviado
+        submitMessage.style.display = "block";
+
         const requestType = document.querySelector('input[name="requestType"]:checked')?.value || "";
 
         const pedido = {
-
             dadosCliente: {
                 organization: document.getElementById("organization").value,
                 site: document.getElementById("site").value,
@@ -33,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
             .join("");
 
         const message = `
-<h1>New Parts Order</h1>
+<h1>New Parts Request</h1>
 
 <p><strong>Customer Data</strong><br>
 Organization: ${pedido.dadosCliente.organization}<br>
@@ -63,25 +66,32 @@ ${pedido.dadosCliente.instrucoes || "None"}</p>
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
                     to: pedido.dadosCliente.email,
-                    subject: "AEI - Parts Order Confirmation",
+                    subject: "AEI - Parts Request Confirmation",
                     message: message,
                     isHtml: true
                 })
             });
 
-            window.location.href = "confirmation.html";
             const data = await response.json();
 
             if (response.ok) {
                 localStorage.setItem("pedidoFinal", JSON.stringify(pedido));
                 localStorage.removeItem("carrinho");
-            }
-            else {
+
+                submitMessage.textContent = "Order submitted successfully!";
+                submitMessage.style.backgroundColor = "#007bff"; 
+
+                setTimeout(() => {
+                    window.location.href = "confirmation.html";
+                }, 1500);
+            } else {
                 alert("Something went wrong: " + (data?.body || response.statusText));
+                submitMessage.style.display = "none";
             }
         } catch (err) {
             console.error(err);
             alert("Something went wrong.");
+            submitMessage.style.display = "none";
         }
     });
 });
