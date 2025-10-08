@@ -1,6 +1,86 @@
 [
     {
-        "Title": "FIBER OPTIC TRANSMITTERS, RECEIVERS, TRANSCEIVERS FL SFP FX",
+        "Title": "A3002 (RCU CONTROL BOARD)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "A3006 (MCU CONTROL BOARD)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "A3009 (SPLITTER/8 PORT 485 HUB)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "A3011 (A3011 RCU RELAY BOARD W/ WDT CIRCUIT W/ BOARD CARRIER)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "A3012 (A3012 RCU RELAY BOARD W/ OUT WDT CIRCUIT W/ BOARD CARRIER)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "A3016 (A/B SPLIT BOARD)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "A3017 (8 AO/RELAY MODULE)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "A3019 (MCUN4 INLET INDICATOR BOARD)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "A3020 (MCUN4 INLET BOARD)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "A3021 (AEI BIRD WEB SCALE)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "A3022 (A3022 COUNTER/INPUT BOARD WITH SWITCHED 24V FOR COUNTERS)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "A3026 (A3026 PLC MODULE)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "INLET IND/B (INLET INDICATOR BOARD - 24VDC)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "MCU-IND (MCU INDICATOR BOARD - 24VAC)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "PCB-000076F (TEMP SENSOR BOARD)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "PMP-1B (PMP BOARD)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "RS232-TTL MODULE (RS232 TO TTL MODULE)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "RS422/TTL-MOD (RS422 TO TTL MODULE)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "SPLITTER BOARD (WITHOUT MOD)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "TTL-1F-MOD-ST (FIBER MODULE W/ST ENDS)",
+        "ProductCategory": "Boards"
+    },
+    {
+        "Title": "24\" MONITOR ",
         "ProductCategory": "Computer and parts"
     },
     {
@@ -8,11 +88,19 @@
         "ProductCategory": "Computer and parts"
     },
     {
+        "Title": "CONV-HUB-485-4 (ISOLATED RS485 HUB / SPLITTER / REPEATER)",
+        "ProductCategory": "Computer and parts"
+    },
+    {
         "Title": "DVI MONITOR CABLE 6'",
         "ProductCategory": "Computer and parts"
     },
     {
-        "Title": "CONV-HUB-485-4 (ISOLATED RS485 HUB / SPLITTER / REPEATER)",
+        "Title": "INTEGRA CONTROL COMPUTER",
+        "ProductCategory": "Computer and parts"
+    },
+    {
+        "Title": "INTEGRA HOUSE COMPUTER",
         "ProductCategory": "Computer and parts"
     },
     {
@@ -20,84 +108,124 @@
         "ProductCategory": "Computer and parts"
     },
     {
-        "Title": "24\" MONITOR ",
-        "ProductCategory": "Computer and parts"
+        "Title": "AO ENCLOSURE",
+        "ProductCategory": "Controllers and Modules"
     },
     {
-        "Title": "SE2-SW8U-2T1-T SWITCH",
-        "ProductCategory": "Computer and parts"
+        "Title": "BIRD SCALE",
+        "ProductCategory": "Controllers and Modules"
     },
     {
-        "Title": "SLX-6ES-4ST (UNMANAGED 4 PORT COPPER/ 2 FIBER MULTIMODE ST) ",
-        "ProductCategory": "Computer and parts"
+        "Title": "COUNTER BOX",
+        "ProductCategory": "Controllers and Modules"
     },
     {
-        "Title": "POWER SUPPLY, AC-DC, 24V, 10A,88-264V",
-        "ProductCategory": "Power suppllies"
+        "Title": "DSS LAYER (DUAL SOURCE SELECTOR)",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "DSS PULLET (DUAL SOURCE SELECTOR)",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "FIBER SWITCH ENCLOSURE",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "INTEGRA NV CONTROL STATION 15\" SCREEN",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "INTRAE CONTROL STATION",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "LIGHT DIMMER PANEL 5",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "MCUN (MODBUS)",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "MCUN4 (INLET CONTROL)",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "MSCU (MANUAL SPEED CONTROL BOX)",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "MULTI INPUT OUTPUT ENCLOSURE",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "PLC PROCCESSING",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "PMP-1 (POWER MONITORING PANEL SYSTEM 1)",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "PSLM 1 (PHASE 1 RELAY 208-480V)",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "PSLM 2 (PHASE LOSS 2 RELAYS 208-480V)",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "RCU-12N (DELUXE RCU WITH 12 WDT RELAYS)",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "RCU-24A (DELUXE BACKUP W/12 WDT RELAYS AND 1 STANDARD RELAY BOARD)",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "RCU-36 (DELUXE BACKUP W/4 WDT RELAY BOARDS AND 1 REGULAR RELAY BOARDS)",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "TSCB-1 (TEMP SENSOR CONNECTOR BOX. FOR ONE SENSOR (MODBUS))",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "TSCB-1 HM/WP (TSCB-1 FOR HUMIDITY OR WATER PRESSURE SENSOR)",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "TSCB-2 (TEMP SENSOR CONNECTOR BOX FOR 2 SENSORS (MODBUS))",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "TSCB-2 0-10 (SENSOR CONNECTOR BOX WITH 2 0-10V INPUTS.)",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "TSCB-OUTSIDE WEATHER (TSCB FOR OUTSIDE TEMP AND HUMIDITY)",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "VSCI-2 (A/B SPLIT CONTROL PANEL 24VDC)",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "VSCI-3 (A/B/C SPLIT ENCLOSURE 24VDC RELAYS)",
+        "ProductCategory": "Controllers and Modules"
+    },
+    {
+        "Title": "WDT-1A (WATCH DOG TIMER)",
+        "ProductCategory": "Controllers and Modules"
     },
     {
         "Title": "POWER SUPPLY, AC-DC, 12V, 6.3AM,85-264V",
         "ProductCategory": "Power suppllies"
     },
     {
-        "Title": "05P00620-0038 (YASKAWA 05P00620-0038 - ENCLOSED REACTOR, 480V, 5% , 15A)",
-        "ProductCategory": "Speed drivers"
-    },
-    {
-        "Title": "05P00620-0042 (INDUCT,RCTR,AC,3PH,1.2MH,600V,)",
-        "ProductCategory": "Speed drivers"
-    },
-    {
-        "Title": "CIMR-VU2A0030GAA (YASKAWA V1000 230V 7.5 HP NEMA 4X)",
-        "ProductCategory": "Speed drivers"
-    },
-    {
-        "Title": "CIMR-VU4A0011GAA (YASKAWA V100 3PH 480V 7.5HP NEMA 4X)",
-        "ProductCategory": "Speed drivers"
-    },
-    {
-        "Title": "CIMR-VU4A0023FAA (15 HP 480V NEMA 1 V1000)",
-        "ProductCategory": "Speed drivers"
-    },
-    {
-        "Title": "CIMR-VU4A0023GAA (480V 15HP 24A HEAVY DUTY SPEED DRIVE NEMA 4X)",
-        "ProductCategory": "Speed drivers"
-    },
-    {
-        "Title": "CIMR-VU4A0031GAA (YASKAWA NEMA 4X 460V 20HP SPEED DRIVE)",
-        "ProductCategory": "Speed drivers"
-    },
-    {
-        "Title": "DE1-34011NN-N20N (3PH 380-480VAC, 7.5HP, 11A, DE1 SPEED DRIVE)",
-        "ProductCategory": "Speed drivers"
-    },
-    {
-        "Title": "DE1-348D5NN-N20N (DE1 VFD 3PH INPUT 380-480VAC, 5HP, 8.5A, 3PH 480V OUT, NO DISPLAY)",
-        "ProductCategory": "Speed drivers"
-    },
-    {
-        "Title": "DXE-EXT-SET (DE1 CONFIGURATION MODULE, PUG IN, DIP SWITCH AND DIAL CONTROL)",
-        "ProductCategory": "Speed drivers"
-    },
-    {
-        "Title": "ETC740230 (YASKAWA VFD DISPLAY CIRCUIT BOARD. PCB OPE,NEMA4X/IP66)",
-        "ProductCategory": "Speed drivers"
-    },
-    {
-        "Title": "YEA-230-10-4X (CIMR-VU2A0040GAA (230V 10HP IN 4X ENC SPEED DRIVE))",
-        "ProductCategory": "Speed drivers"
-    },
-    {
-        "Title": "YEA-460-10-4X (CIMR-VU4A0018GAA (460V 10HP IN 4X ENC SPEED DRIVE))",
-        "ProductCategory": "Speed drivers"
-    },
-    {
-        "Title": "YEA 5 HP 230V DRIVE (CIMR-VU2A0020GAA 5HP 230V YASKAWA DRIVE NEMA 4X)",
-        "ProductCategory": "Speed drivers"
-    },
-    {
-        "Title": "YEA 5 HP 480V DRIVE (CIMR-VU4A0009GAA 5HP 480V YASKAWA DRIVE)",
-        "ProductCategory": "Speed drivers"
+        "Title": "POWER SUPPLY, AC-DC, 24V, 10A,88-264V",
+        "ProductCategory": "Power suppllies"
     },
     {
         "Title": "ASY-000237 (POWER SUPPLY 110V/230V TO 12.6VDC)",
@@ -160,11 +288,39 @@
         "ProductCategory": "Sensors"
     },
     {
+        "Title": "CO2 SENSOR",
+        "ProductCategory": "Sensors"
+    },
+    {
+        "Title": "FLOOR STANDING BIRD SCALE (FLOOR PLATFORM SCALE)",
+        "ProductCategory": "Sensors"
+    },
+    {
+        "Title": "HANGING PLATFORM BIRD SCALE (ADJUSTABLE PLATFORM SCALE; CHAIN AND HOOKS; 50LB S LOAD CELL)",
+        "ProductCategory": "Sensors"
+    },
+    {
         "Title": "HUMIDITY SENSOR",
         "ProductCategory": "Sensors"
     },
     {
         "Title": "RADIATION SHIELD",
+        "ProductCategory": "Sensors"
+    },
+    {
+        "Title": "RPM SENSOR",
+        "ProductCategory": "Sensors"
+    },
+    {
+        "Title": "SENSOR CONNECTOR BOX (SCB-0-10V)",
+        "ProductCategory": "Sensors"
+    },
+    {
+        "Title": "SENSOR CONNECTOR BOX (SCB-1 TEMP SENSOR)",
+        "ProductCategory": "Sensors"
+    },
+    {
+        "Title": "STATIC PRESSURE SENSOR",
         "ProductCategory": "Sensors"
     },
     {
@@ -176,287 +332,91 @@
         "ProductCategory": "Sensors"
     },
     {
-        "Title": "5/8\" COMPLETE METER ",
-        "ProductCategory": "Water meters"
+        "Title": "TEMPERATURE SENSOR (10' RTD PROBE)",
+        "ProductCategory": "Sensors"
     },
     {
-        "Title": "WM-ACC-RS (REED PULSE SWITCH)",
-        "ProductCategory": "Water meters"
+        "Title": "WATAER METER ACC-RS (REED PULSE SWITCH)",
+        "ProductCategory": "Sensors"
     },
     {
-        "Title": "VSUAL FAULT LOCATOR (POCKET VISUAL FAULT  LOCATOR (PFL/VFL)  2.5MM ADAPTER +  1.2...",
-        "ProductCategory": "Wires and cables"
+        "Title": "WATER METER 5/8",
+        "ProductCategory": "Sensors"
     },
     {
-        "Title": "FIB-KIT3 (THE OPTICAM® 2 TERMINATION TOOL KIT INCLUDES ALL OF THE ACCESS...) - OTHER",
-        "ProductCategory": "Wires and cables"
+        "Title": "WATER PRESSURE SENSOR",
+        "ProductCategory": "Sensors"
+    },
+    {
+        "Title": "05P00620-0038 (YASKAWA 05P00620-0038 - ENCLOSED REACTOR, 480V, 5% , 15A)",
+        "ProductCategory": "Speed drivers"
+    },
+    {
+        "Title": "05P00620-0042 (INDUCT,RCTR,AC,3PH,1.2MH,600V,)",
+        "ProductCategory": "Speed drivers"
+    },
+    {
+        "Title": "CIMR-VU2A0030GAA (YASKAWA V1000 230V 7.5 HP NEMA 4X)",
+        "ProductCategory": "Speed drivers"
+    },
+    {
+        "Title": "CIMR-VU4A0011GAA (YASKAWA V100 3PH 480V 7.5HP NEMA 4X)",
+        "ProductCategory": "Speed drivers"
+    },
+    {
+        "Title": "CIMR-VU4A0023FAA (15 HP 480V NEMA 1 V1000)",
+        "ProductCategory": "Speed drivers"
+    },
+    {
+        "Title": "CIMR-VU4A0023GAA (480V 15HP 24A HEAVY DUTY SPEED DRIVE NEMA 4X)",
+        "ProductCategory": "Speed drivers"
+    },
+    {
+        "Title": "CIMR-VU4A0031GAA (YASKAWA NEMA 4X 460V 20HP SPEED DRIVE)",
+        "ProductCategory": "Speed drivers"
+    },
+    {
+        "Title": "DE1-34011NN-N20N (3PH 380-480VAC, 7.5HP, 11A, DE1 SPEED DRIVE)",
+        "ProductCategory": "Speed drivers"
+    },
+    {
+        "Title": "DE1-348D5NN-N20N (DE1 VFD 3PH INPUT 380-480VAC, 5HP, 8.5A, 3PH 480V OUT, NO DISPLAY)",
+        "ProductCategory": "Speed drivers"
+    },
+    {
+        "Title": "DXE-EXT-SET (DE1 CONFIGURATION MODULE, PUG IN, DIP SWITCH AND DIAL CONTROL)",
+        "ProductCategory": "Speed drivers"
+    },
+    {
+        "Title": "ETC740230 (YASKAWA VFD DISPLAY CIRCUIT BOARD. PCB OPE,NEMA4X/IP66)",
+        "ProductCategory": "Speed drivers"
+    },
+    {
+        "Title": "YEA 5 HP 230V DRIVE (CIMR-VU2A0020GAA 5HP 230V YASKAWA DRIVE NEMA 4X)",
+        "ProductCategory": "Speed drivers"
+    },
+    {
+        "Title": "YEA 5 HP 480V DRIVE (CIMR-VU4A0009GAA 5HP 480V YASKAWA DRIVE)",
+        "ProductCategory": "Speed drivers"
+    },
+    {
+        "Title": "YEA-230-10-4X (CIMR-VU2A0040GAA (230V 10HP IN 4X ENC SPEED DRIVE))",
+        "ProductCategory": "Speed drivers"
+    },
+    {
+        "Title": "YEA-460-10-4X (CIMR-VU4A0018GAA (460V 10HP IN 4X ENC SPEED DRIVE))",
+        "ProductCategory": "Speed drivers"
     },
     {
         "Title": "CABLE-010 (10 POSITION RIBBON CABLE FOR A3002/A2011/A3012/A3020)",
         "ProductCategory": "Wires and cables"
     },
     {
-        "Title": "AO ENCLOSURE (8 CHANNEL ANALOG/RELAY OUTPUT REMOTE I/O ENCLOSURE)",
-        "ProductCategory": "Finished enclousers"
+        "Title": "FIB-KIT3 (THE OPTICAM\u00ae 2 TERMINATION TOOL KIT INCLUDES ALL OF THE ACCESS...) - OTHER",
+        "ProductCategory": "Wires and cables"
     },
     {
-        "Title": "BIRD SCALE (AEI WEB SCALE ENCLOSURE)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "COUNTER BOX (COUNTER/INPUT ENCLOSURE)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "DSS LAYER (DUAL SOURCE SELECTOR (DSS) - LAYERS)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "DSS PULLET (DUAL SOURCE SELECTOR (DSS) - PULLET)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "FIBER SWITCH ENCLOSURE (FIBER SWITCH ENCLOSURE 1-LC SWITCH, 2-SFP MODULE AND 4-LC...",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "INTRAE NV 8 PORT 15\" SCREEN (INTRAE CONTROL STATION WITH 15\" TOUCHSCREEN)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "INTRAE STATION 8 PORT (INTRAE CONTROL STATION WITH PS, SPLITTER/485 8 PORT HUB, F...",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "LIGHT DIMMER PANEL 5 (AUTO, OFF, MANUAL 5 CHANNEL LIGHT DIMMER CONTROL)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "MCUN (MCU 1 CHANNEL (MODBUS) ENCLOSURE)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "MCUN4 (MCUN4  4 CHANNEL INLET CONTROL)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "MSCU (MANUAL SPEED CONTROL BOX)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "MULTI INPUT OUTPUT ENCLOSURE (MULTI INPUT OUTPUT ENCLOSURE - 8 DIGITAL INPUT, 8 R...",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "PLC PROCCESSING (PLC PROCCESSING CABINET WITH MODE SWITCH AND SYS WDT.)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "PMP-1 (POWER MONITORING PANEL SYSTEM 1)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "PSLM 1 208-480V (PHASE 1 RELAY 208-480V)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "PSLM 2 208-480V (PHASE LOSS 2 RELAYS 208-480V)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "RCU-12N (DELUXE RCU WITH 12 WDT RELAYS)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "RCU-24A (DELUXE BACKUP W/12 WDT RELAYS AND 1 STANDARD RELAY BOARD)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "RCU-36 (DELUXE BACKUP W/4 WDT RELAY BOARDS AND 1 REGULAR RELAY BOARDS)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "SCB-1 (SENSOR CONNECTOR BOX (TEMP SENSORS))",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "SPD-1P-ENC (SPIDER HUB ENC W/FULL SPIDER HUB AND 1 RS232 MODULE AND2 TTL-1F-MOD-ST)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "SPD-1P-ENC1 (SPIDER HUB ENC W/PARTIAL SPD BOARD AND NO MODULE)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "TSCB-1 (TEMP SENSOR CONNECTOR BOX. FOR ONE SENSOR (MODBUS))",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "TSCB-1 HM/WP (TSCB-1 FOR HUMIDITY OR WATER PRESSURE SENSOR)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "TSCB-2 (TEMP SENSOR CONNECTOR BOX FOR 2 SENSORS (MODBUS))",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "TSCB-2 0-10 (SENSOR CONNECTOR BOX WITH 2 0-10V INPUTS.)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "TSCB-OUTSIDE WEATHER (TSCB FOR OUTSIDE TEMP AND HUMIDITY)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "VSCI-2 (A/B SPLIT CONTROL PANEL 24 V DC)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "VSCI-3 (A-B-C SPLIT ENCLOSURE 24VDC RELAYS)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "WDT-1A (WATCH DOG TIMER)",
-        "ProductCategory": "Finished enclousers"
-    },
-    {
-        "Title": "A3002 (RCU CONTROL BOARD)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "A3005 (COUNTER BOARD)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "A3006 (MCU CONTROL BOARD)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "A3007 (TEMP SENSOR BOARD)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "A3009 (SPLITTER/8 PORT 485 HUB)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "A3011 (A3011 RCU RELAY BOARD W/ WDT CIRCUIT AND BOARD CARRIER)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "A3012 (A3012 RCU RELAY BOARD W/OUT WDT CIRCUIT W/BOARD CARRIER)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "A3016 (A/B SPLIT BOARD)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "A3017 (8 AO/RELAY MODULE)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "A3019 (MCUN4 INLET INDICATOR BOARD)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "A3020 (MCUN4 INLET BOARD)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "A3021 (AEI BIRD WEB SCALE)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "A3022 (A3022 COUNTER/INPUT BOARD WITH SWITCHED 24V FOR COUNTERS)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "A3026 (A3026 PLC MODULE)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "CMF-1 (COM FUSE MODULE)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "INLET IND/B (INLET INDICATOR BOARD - 24VDC)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "INTEGRA CONTROL COMPUTER (CONTROL COMPUTER  SETUP:        S/N:)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "INTEGRA HOUSE COMPUTER (HOUSE COMPUTER  SETUP:                        S/N:)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "MCU-IND (MCU INDICATOR BOARD - 24VAC)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "PCB-000076F (2 CHANNEL REMOTE I/O ANALOG INPUT MODULE)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "PMP-1B (PMP BOARD)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "RS232-TTL MODULE (RS232 TO TTL MODULE)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "RS4222/TTL-MOD (RS422 TO TTL MODULE)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "SKOV (SKOV MODULE 0-10V INPUT)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "SPLITTER BOARD (SPLITTER BOARD WITHOUT MOD)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "TTL-1F-MOD-ST (FIBER MODULE W/ST ENDS)",
-        "ProductCategory": "Finished boards"
-    },
-    {
-        "Title": "BIRDSCALE-FLOOR ASSEMBLY (FLOOR STANDING BIRD SCALE  -FLOOR PLATFORM SCALE)",
-        "ProductCategory": "Sensors assembly"
-    },
-    {
-        "Title": "BIRDSCALE-HANGING ASSEMBLY (HANGING PLATFORM BIRD SCALE  -ADJUSTABLE PLATFORM  -C...",
-        "ProductCategory": "Sensors assembly"
-    },
-    {
-        "Title": "CO2 COMPLETE (CO2 SENSOR WITH 20' CORD WHIP)",
-        "ProductCategory": "Sensors assembly"
-    },
-    {
-        "Title": "HM-114 COM (HUMIDITY SENSOR COMPLETE)",
-        "ProductCategory": "Sensors assembly"
-    },
-    {
-        "Title": "RPM-1 COM (RPM SENSOR COMPLETE)",
-        "ProductCategory": "Sensors assembly"
-    },
-    {
-        "Title": "RTD 10' (10' RTD PROBE)",
-        "ProductCategory": "Sensors assembly"
-    },
-    {
-        "Title": "SCB-0-10V (0-10V RECEPTACLE)",
-        "ProductCategory": "Sensors assembly"
-    },
-    {
-        "Title": "STATIC (AIR DIFFERENTIAL PRESSURE TRANSMITTER) ",
-        "ProductCategory": "Sensors assembly"
-    },
-    {
-        "Title": "WP-COM (WATER PRESSURE SENSOR FINISHED)",
-        "ProductCategory": "Sensors assembly"
+        "Title": "VSUAL FAULT LOCATOR (POCKET VISUAL FAULT  LOCATOR (PFL/VFL)  2.5MM ADAPTER +  1.2...",
+        "ProductCategory": "Wires and cables"
     }
 ]

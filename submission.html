@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png">
     <link rel="stylesheet" href="css/user.css">
     <title>Submission</title>
 </head>
@@ -25,19 +26,34 @@
         <form action="" class="formulario">
             <h1>Almost there!</h1>
 
-            <label for="organization">Organization</label>
+            <label for="organization">Organization*</label>
             <input type="text" id="organization" name="organization" placeholder="Company name">
             <span class="error" id="erroOrganization"></span>
 
-            <label for="site">Site</label>
+            <label for="site">Site*</label>
             <input type="text" id="site" name="site" placeholder="Farm name">
             <span class="error" id="erroSite"></span>
 
-            <label for="name">Contact person</label>
+            <label for="name">Contact person*</label>
             <input type="text" id="name" name="name" placeholder="Enter your full name">
             <span class="error" id="erroContactName"></span>
 
-            <label for="email">E-mail address</label>
+            <div class="radio-container">
+                <label for="request-type">Request type*</label>
+                <div class="radio-options">
+                    <label>
+                        <input type="radio" name="requestType" value="order">
+                        I want to order these items
+                    </label>
+                    <label>
+                        <input type="radio" name="requestType" value="quote">
+                        I want to quote these items
+                    </label>
+                </div>
+                <span class="error" id="erroRequestType"></span>
+            </div>
+
+            <label for="email">E-mail address*</label>
             <input type="text" id="email" name="email" placeholder="example@email.com">
             <span class="error" id="erroEmail"></span>
 
@@ -45,10 +61,12 @@
             <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
             <span class="error" id="erroPhone"></span>
 
+
+
+
             <label for="po">PO (Optional)</label>
             <input type="text" id="po" name="po" placeholder="Product order">
             <span class="error" id="erroPO"></span>
-
 
             <fieldset>
                 <legend>Shipment address (Optional)</legend>
@@ -78,7 +96,7 @@
                 <span class="error" id="erroZip"></span>
             </fieldset>
 
-            <button class="button" type="submit">Submit my order</button>
+            <button id="submitBtn" class="button" type="submit" disabled>Submit my order</button>
         </form>
 
     </main>

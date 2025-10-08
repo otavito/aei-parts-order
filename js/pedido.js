@@ -4,14 +4,18 @@ document.addEventListener("DOMContentLoaded", () => {
     form.addEventListener("submit", async function (event) {
         event.preventDefault();
 
+        const requestType = document.querySelector('input[name="requestType"]:checked')?.value || "";
+
         const pedido = {
+
             dadosCliente: {
                 organization: document.getElementById("organization").value,
-                site: document.getElementById("site").value, // novo
+                site: document.getElementById("site").value,
                 nome: document.getElementById("name").value,
                 email: document.getElementById("email").value,
                 telefone: document.getElementById("phone").value,
-                po: document.getElementById("po").value, // novo
+                po: document.getElementById("po").value,
+                requestType: requestType,
                 endereco: {
                     rua: document.getElementById("street").value,
                     apt: document.getElementById("apartment").value,
@@ -24,31 +28,31 @@ document.addEventListener("DOMContentLoaded", () => {
             carrinho: JSON.parse(localStorage.getItem("carrinho")) || {}
         };
 
-
         const itemsHtml = Object.entries(pedido.carrinho)
             .map(([nome, qtd]) => `<li>${nome} — ${qtd}</li>`)
             .join("");
 
         const message = `
-    <h1>New Parts Order</h1>
+<h1>New Parts Order</h1>
 
-    <p><strong>Customer Data</strong><br>
-    Organization: ${pedido.dadosCliente.organization}<br>
-    Site: ${pedido.dadosCliente.site}<br>
-    Name: ${pedido.dadosCliente.nome}<br>
-    Email: ${pedido.dadosCliente.email}<br>
-    Phone: ${pedido.dadosCliente.telefone}<br>
-    PO: ${pedido.dadosCliente.po}</p>
+<p><strong>Customer Data</strong><br>
+Organization: ${pedido.dadosCliente.organization}<br>
+Site: ${pedido.dadosCliente.site}<br>
+Name: ${pedido.dadosCliente.nome}<br>
+Email: ${pedido.dadosCliente.email}<br>
+Phone: ${pedido.dadosCliente.telefone}<br>
+PO: ${pedido.dadosCliente.po}<br>
+Request Type: ${pedido.dadosCliente.requestType === "order" ? "I want to order these items" : "I want to quote these items"}</p>
 
-    <p><strong>Shipping Address</strong><br>
-    ${pedido.dadosCliente.endereco.rua}, ${pedido.dadosCliente.endereco.apt || ""}<br>
-    ${pedido.dadosCliente.endereco.cidade} - ${pedido.dadosCliente.endereco.state}, ${pedido.dadosCliente.endereco.cep}</p>
+<p><strong>Shipping Address</strong><br>
+${pedido.dadosCliente.endereco.rua}, ${pedido.dadosCliente.endereco.apt || ""}<br>
+${pedido.dadosCliente.endereco.cidade} - ${pedido.dadosCliente.endereco.state}, ${pedido.dadosCliente.endereco.cep}</p>
 
-    <p><strong>Items Ordered</strong></p>
-    <ul>${itemsHtml}</ul>
+<p><strong>Items Ordered</strong></p>
+<ul>${itemsHtml}</ul>
 
-    <p><strong>Special Instructions</strong><br>
-    ${pedido.dadosCliente.instrucoes || "None"}</p>
+<p><strong>Special Instructions</strong><br>
+${pedido.dadosCliente.instrucoes || "None"}</p>
 `;
 
         try {

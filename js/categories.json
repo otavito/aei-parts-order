@@ -1,12 +1,10 @@
 [
+    {"Title": "Boards"},
     {"Title": "Computer and parts"},
+    {"Title": "Controllers and modules"},
     {"Title": "Power suppllies"},
     {"Title": "Speed drivers"},
     {"Title": "Scales"},
     {"Title": "Sensors"},
-    {"Title": "Water meters"},
-    {"Title": "Wires and cables"},
-    {"Title": "Finished enclousers"},
-    {"Title": "Finished boards"},
-    {"Title": "Sensors assembly"}
+    {"Title": "Wires and cables"}
 ]
