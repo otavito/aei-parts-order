@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,14 +31,25 @@
     <main>
         <section class="introducao">
             <h1>Parts ordering</h1>
-            <p>Welcome to the parts ordering page! Select the AEI parts and components you wish to order. Attention: After completing your order, you will receive a confirmation email. Please wait until one of our team members contacts you with the final prices.</p>
-            <img src="img/template.jpg" alt="">
+            <p>Welcome to our Parts Ordering page! Please select the AEI parts and components you would like to order.
+                Once your order is submitted, you will receive a confirmation email. One of our team members will then
+                contact you with the final details.</p>
+
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for parts or components...">
+            </div>
+
         </section>
+
         <section class="produtos" id="produtos"></section>
         <div class="botao-carrinho">
             <a href="cart.html" class="btn-cart" id="btn-finish-order">Finish order</a>
         </div>
 
+        <p
+            style="background-color: #2B89ED; color: white; padding: 1rem; border-radius: 10px; font-weight: bold; text-align: center;">
+            Could not find what you were looking for? For obsolete parts and components, reach ou to aei.parts@munters.com
+        </p>
 
     </main>
 </body>
@@ -117,7 +127,7 @@
     }
 
     document.getElementById("btn-finish-order").addEventListener("click", (e) => {
-        e.preventDefault(); 
+        e.preventDefault();
 
         let carrinho = JSON.parse(localStorage.getItem("carrinho")) || {};
 
@@ -140,9 +150,9 @@
         let carrinho = JSON.parse(localStorage.getItem("carrinho")) || {};
 
         if (quantidade > 0) {
-            carrinho[produto] = quantidade; 
+            carrinho[produto] = quantidade;
         } else {
-            delete carrinho[produto]; 
+            delete carrinho[produto];
         }
 
         localStorage.setItem("carrinho", JSON.stringify(carrinho));
@@ -164,6 +174,42 @@
             btn.classList.add("hidden");
         }
     }
+
+    const searchInput = document.getElementById("searchInput");
+
+    searchInput.addEventListener("input", () => {
+        const query = searchInput.value.toLowerCase();
+
+        document.querySelectorAll(".categoria").forEach(categoriaDiv => {
+            const produtos = categoriaDiv.querySelectorAll(".produto");
+            const content = categoriaDiv.querySelector(".categoria-content");
+
+            if (query === "") {
+
+                produtos.forEach(produtoDiv => produtoDiv.style.display = "flex");
+                content.classList.remove("ativo");
+                return;
+            }
+
+            let temResultado = false;
+
+            produtos.forEach(produtoDiv => {
+                const nome = produtoDiv.querySelector("span").textContent.toLowerCase();
+                if (nome.includes(query)) {
+                    produtoDiv.style.display = "flex";
+                    temResultado = true;
+                } else {
+                    produtoDiv.style.display = "none";
+                }
+            });
+
+            if (temResultado) {
+                content.classList.add("ativo");
+            } else {
+                content.classList.remove("ativo");
+            }
+        });
+    });
 
     document.addEventListener("DOMContentLoaded", () => {
         carregarProdutos().then(() => verificarCarrinhoAtivo());

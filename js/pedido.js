@@ -45,7 +45,7 @@ Name: ${pedido.dadosCliente.nome}<br>
 Email: ${pedido.dadosCliente.email}<br>
 Phone: ${pedido.dadosCliente.telefone}<br>
 PO: ${pedido.dadosCliente.po}<br>
-Request Type: ${pedido.dadosCliente.requestType === "order" ? "I want to order these items" : "I want to quote these items"}</p>
+Request type: ${pedido.dadosCliente.requestType === "order" ? "I want to order these items" : "I want to quote these items"}</p>
 
 <p><strong>Shipping Address</strong><br>
 ${pedido.dadosCliente.endereco.rua}, ${pedido.dadosCliente.endereco.apt || ""}<br>

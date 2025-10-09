@@ -69,12 +69,15 @@ body{
 
 /*Formulário*/
 
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
-    margin: 5% 30%;
-    padding: 2rem 4rem;
+    margin: 5% auto;       /* centraliza horizontalmente */
+    padding: 2rem 2rem;    /* reduz padding para telas pequenas */
     border: solid 1px #373737;
+    max-width: 500px;      /* largura máxima do formulário */
+    width: 90%;            /* ocupa 90% da tela em mobiles */
+    box-sizing: border-box;
 }
 
 h1{
@@ -185,6 +188,7 @@ fieldset input {
     transform: scale(1.1);
     cursor: pointer;
     margin-bottom: 0;
+    width: auto;
 }
 
 .submit-message {
@@ -202,4 +206,13 @@ fieldset input {
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-5px); }
     to { opacity: 1; transform: translateY(0); }
+}
+
+input, .button {
+    width: 100%;
+    box-sizing: border-box;   /* inclui padding na largura total */
+}
+
+.radio-options {
+    flex-direction: column;   /* já está, mas reforça para mobiles */
 }

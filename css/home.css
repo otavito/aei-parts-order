@@ -218,3 +218,23 @@ main{
     opacity: 0.5;          
     cursor: not-allowed;
 }
+
+.search-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.search-container input {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.search-container input:focus {
+    border-color: #2B89ED;
+}
