@@ -182,8 +182,8 @@ h1{
     background-color: #2B89ED;
 }
 
-/* Alinha o nome do produto à esquerda */
 #tabela-carrinho td:first-child {
     text-align: left;
-    padding-left: 10px; /* opcional, para dar um espaçamento */
+    padding-left: 10px; 
 }
+
