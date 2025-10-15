@@ -349,63 +349,63 @@
     },
     {
         "Title": "05P00620-0038 (YASKAWA 05P00620-0038 - ENCLOSED REACTOR, 480V, 5% , 15A)",
-        "ProductCategory": "Speed drivers"
+        "ProductCategory": "Speed drives"
     },
     {
         "Title": "05P00620-0042 (INDUCT,RCTR,AC,3PH,1.2MH,600V,)",
-        "ProductCategory": "Speed drivers"
+        "ProductCategory": "Speed drives"
     },
     {
         "Title": "CIMR-VU2A0030GAA (YASKAWA V1000 230V 7.5 HP NEMA 4X)",
-        "ProductCategory": "Speed drivers"
+        "ProductCategory": "Speed drives"
     },
     {
         "Title": "CIMR-VU4A0011GAA (YASKAWA V100 3PH 480V 7.5HP NEMA 4X)",
-        "ProductCategory": "Speed drivers"
+        "ProductCategory": "Speed drives"
     },
     {
         "Title": "CIMR-VU4A0023FAA (15 HP 480V NEMA 1 V1000)",
-        "ProductCategory": "Speed drivers"
+        "ProductCategory": "Speed drives"
     },
     {
         "Title": "CIMR-VU4A0023GAA (480V 15HP 24A HEAVY DUTY SPEED DRIVE NEMA 4X)",
-        "ProductCategory": "Speed drivers"
+        "ProductCategory": "Speed drives"
     },
     {
         "Title": "CIMR-VU4A0031GAA (YASKAWA NEMA 4X 460V 20HP SPEED DRIVE)",
-        "ProductCategory": "Speed drivers"
+        "ProductCategory": "Speed drives"
     },
     {
         "Title": "DE1-34011NN-N20N (3PH 380-480VAC, 7.5HP, 11A, DE1 SPEED DRIVE)",
-        "ProductCategory": "Speed drivers"
+        "ProductCategory": "Speed drives"
     },
     {
         "Title": "DE1-348D5NN-N20N (DE1 VFD 3PH INPUT 380-480VAC, 5HP, 8.5A, 3PH 480V OUT, NO DISPLAY)",
-        "ProductCategory": "Speed drivers"
+        "ProductCategory": "Speed drives"
     },
     {
         "Title": "DXE-EXT-SET (DE1 CONFIGURATION MODULE, PUG IN, DIP SWITCH AND DIAL CONTROL)",
-        "ProductCategory": "Speed drivers"
+        "ProductCategory": "Speed drives"
     },
     {
         "Title": "ETC740230 (YASKAWA VFD DISPLAY CIRCUIT BOARD. PCB OPE,NEMA4X/IP66)",
-        "ProductCategory": "Speed drivers"
+        "ProductCategory": "Speed drives"
     },
     {
         "Title": "YEA 5 HP 230V DRIVE (CIMR-VU2A0020GAA 5HP 230V YASKAWA DRIVE NEMA 4X)",
-        "ProductCategory": "Speed drivers"
+        "ProductCategory": "Speed drives"
     },
     {
         "Title": "YEA 5 HP 480V DRIVE (CIMR-VU4A0009GAA 5HP 480V YASKAWA DRIVE)",
-        "ProductCategory": "Speed drivers"
+        "ProductCategory": "Speed drives"
     },
     {
         "Title": "YEA-230-10-4X (CIMR-VU2A0040GAA (230V 10HP IN 4X ENC SPEED DRIVE))",
-        "ProductCategory": "Speed drivers"
+        "ProductCategory": "Speed drives"
     },
     {
         "Title": "YEA-460-10-4X (CIMR-VU4A0018GAA (460V 10HP IN 4X ENC SPEED DRIVE))",
-        "ProductCategory": "Speed drivers"
+        "ProductCategory": "Speed drives"
     },
     {
         "Title": "CABLE-010 (10 POSITION RIBBON CABLE FOR A3002/A2011/A3012/A3020)",
@@ -418,5 +418,49 @@
     {
         "Title": "VSUAL FAULT LOCATOR (POCKET VISUAL FAULT  LOCATOR (PFL/VFL)  2.5MM ADAPTER +  1.2...",
         "ProductCategory": "Wires and cables"
+    },
+    {
+        "Title": "Assembly kit for EggXact egg counter w/ short and long mounting bracket",
+        "ProductCategory": "Egg counters"
+    },
+    {
+        "Title": "Assembly kit for EggXact egg counter w/ two long mounting brackets",
+        "ProductCategory": "Egg counters"
+    },
+    {
+        "Title": "Assembly kit for EggXact egg counter w/ two short mounting brackets",
+        "ProductCategory": "Egg counters"
+    },
+    {
+        "Title": "Egg counter 12 cm / 4 inch wide",
+        "ProductCategory": "Egg counters"
+    },
+    {
+        "Title": "Egg counter 20 cm / 8 inch wide",
+        "ProductCategory": "Egg counters"
+    },
+    {
+        "Title": "Egg counter 30 cm / 12 inch wide",
+        "ProductCategory": "Egg counters"
+    },
+    {
+        "Title": "Egg counter 40 cm / 16 inch wide",
+        "ProductCategory": "Egg counters"
+    },
+    {
+        "Title": "Egg counter 50 cm / 20 inch wide",
+        "ProductCategory": "Egg counters"
+    },
+    {
+        "Title": "Egg counter 60 cm / 24 inch wide",
+        "ProductCategory": "Egg counters"
+    },
+    {
+        "Title": "Egg counter 70 cm / 28 inch wide",
+        "ProductCategory": "Egg counters"
+    },
+    {
+        "Title": "Egg counter 80 cm / 32 inch wide",
+        "ProductCategory": "Egg counters"
     }
 ]
