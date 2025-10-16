@@ -348,63 +348,47 @@
         "ProductCategory": "Sensors"
     },
     {
-        "Title": "05P00620-0038 (YASKAWA 05P00620-0038 - ENCLOSED REACTOR, 480V, 5% , 15A)",
+        "Title": "ENCLOSED REACTOR, 480V, 5% , 15A (05P00620-0038)",
         "ProductCategory": "Speed drives"
     },
     {
-        "Title": "05P00620-0042 (INDUCT,RCTR,AC,3PH,1.2MH,600V,)",
+        "Title": "INDUCT,RCTR,AC,3PH,1.2MH,600V (05P00620-0042)",
         "ProductCategory": "Speed drives"
     },
     {
-        "Title": "CIMR-VU2A0030GAA (YASKAWA V1000 230V 7.5 HP NEMA 4X)",
+        "Title": "YEA V1000 230V 7.5 HP NEMA 4X (CIMR-VU2A0030GAA)",
         "ProductCategory": "Speed drives"
     },
     {
-        "Title": "CIMR-VU4A0011GAA (YASKAWA V100 3PH 480V 7.5HP NEMA 4X)",
+        "Title": "YEA V100 3PH 480V 7.5HP NEMA 4X (CIMR-VU4A0011GAA)",
         "ProductCategory": "Speed drives"
     },
     {
-        "Title": "CIMR-VU4A0023FAA (15 HP 480V NEMA 1 V1000)",
+        "Title": "YEA V1000 480V 15 HP NEMA 1X (CIMR-VU4A0023FAA)",
         "ProductCategory": "Speed drives"
     },
     {
-        "Title": "CIMR-VU4A0023GAA (480V 15HP 24A HEAVY DUTY SPEED DRIVE NEMA 4X)",
+        "Title": "YEA HEAVY DUTY SPEED DRIVE 480V 15HP 24A NEMA 4X (CIMR-VU4A0023GAA)",
         "ProductCategory": "Speed drives"
     },
     {
-        "Title": "CIMR-VU4A0031GAA (YASKAWA NEMA 4X 460V 20HP SPEED DRIVE)",
+        "Title": "YEA 460V 20HP NEMA 4X (CIMR-VU4A0031GAA)",
         "ProductCategory": "Speed drives"
     },
     {
-        "Title": "DE1-34011NN-N20N (3PH 380-480VAC, 7.5HP, 11A, DE1 SPEED DRIVE)",
+        "Title": "YEA 230V 5HP NEMA 4X (CIMR-VU2A0020GAA)",
         "ProductCategory": "Speed drives"
     },
     {
-        "Title": "DE1-348D5NN-N20N (DE1 VFD 3PH INPUT 380-480VAC, 5HP, 8.5A, 3PH 480V OUT, NO DISPLAY)",
+        "Title": "YEA 480V 5HP NEMA 4X (CIMR-VU4A0009GAA)",
         "ProductCategory": "Speed drives"
     },
     {
-        "Title": "DXE-EXT-SET (DE1 CONFIGURATION MODULE, PUG IN, DIP SWITCH AND DIAL CONTROL)",
+        "Title": "YEA 230V 10HP NEMA 4X (CIMR-VU2A0040GAA)",
         "ProductCategory": "Speed drives"
     },
     {
-        "Title": "ETC740230 (YASKAWA VFD DISPLAY CIRCUIT BOARD. PCB OPE,NEMA4X/IP66)",
-        "ProductCategory": "Speed drives"
-    },
-    {
-        "Title": "YEA 5 HP 230V DRIVE (CIMR-VU2A0020GAA 5HP 230V YASKAWA DRIVE NEMA 4X)",
-        "ProductCategory": "Speed drives"
-    },
-    {
-        "Title": "YEA 5 HP 480V DRIVE (CIMR-VU4A0009GAA 5HP 480V YASKAWA DRIVE)",
-        "ProductCategory": "Speed drives"
-    },
-    {
-        "Title": "YEA-230-10-4X (CIMR-VU2A0040GAA (230V 10HP IN 4X ENC SPEED DRIVE))",
-        "ProductCategory": "Speed drives"
-    },
-    {
-        "Title": "YEA-460-10-4X (CIMR-VU4A0018GAA (460V 10HP IN 4X ENC SPEED DRIVE))",
+        "Title": "YEA 460V 10HP NEMA 4X (CIMR-VU4A0018GAA)",
         "ProductCategory": "Speed drives"
     },
     {
