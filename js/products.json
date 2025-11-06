@@ -7,22 +7,22 @@
     {
         "Title": "A3006 (MCU CONTROL BOARD)",
         "ProductCategory": "Boards",
-        "img": "img/products/boards/A3006.F.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/boards/A3006.F.png"
     },
     {
         "Title": "A3009 (SPLITTER/8 PORT 485 HUB)",
         "ProductCategory": "Boards",
-        "img": "img/products/boards/A3009.F.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/boards/A3009.F.png"
     },
     {
         "Title": "A3011 (A3011 RCU RELAY BOARD W/ WDT CIRCUIT W/ BOARD CARRIER)",
         "ProductCategory": "Boards",
-        "img": "img/products/boards/A3011.F.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/boards/A3011.F.png"
     },
     {
         "Title": "A3012 (A3012 RCU RELAY BOARD W/ OUT WDT CIRCUIT W/ BOARD CARRIER)",
         "ProductCategory": "Boards",
-        "img": "img/products/boards/A3012.F.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/boards/A3012.F.png"
     },
     {
         "Title": "A3016 (A/B SPLIT BOARD)",
@@ -32,32 +32,32 @@
     {
         "Title": "A3017 (8 AO/RELAY MODULE)",
         "ProductCategory": "Boards",
-        "img": "img/products/boards/A3017.F.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/boards/A3017.F.png"
     },
     {
         "Title": "A3019 (MCUN4 INLET INDICATOR BOARD)",
         "ProductCategory": "Boards",
-        "img": "img/products/boards/A3019.F.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/boards/A3019.F.png"
     },
     {
         "Title": "A3020 (MCUN4 INLET BOARD)",
         "ProductCategory": "Boards",
-        "img": "img/products/boards/A3020.F.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/boards/A3020.F.png"
     },
     {
         "Title": "A3021 (AEI BIRD WEB SCALE)",
         "ProductCategory": "Boards",
-        "img": "img/products/boards/A3021.F.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/boards/A3021.F.png"
     },
     {
         "Title": "A3022 (A3022 COUNTER/INPUT BOARD WITH SWITCHED 24V FOR COUNTERS)",
         "ProductCategory": "Boards",
-        "img": "img/products/boards/A3022.F.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/boards/A3022.F.png"
     },
     {
         "Title": "A3026 (A3026 PLC MODULE)",
         "ProductCategory": "Boards",
-        "img": "img/products/boards/A3026.F.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/boards/A3026.F.png"
     },
     {
         "Title": "INLET IND/B (INLET INDICATOR BOARD - 24VDC)",
@@ -72,42 +72,42 @@
     {
         "Title": "PCB-000076F (TEMP SENSOR BOARD)",
         "ProductCategory": "Boards",
-        "img": "img/products/boards/PCB_00076.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/boards/PCB_00076.png"
     },
     {
         "Title": "PMP-1B (PMP BOARD)",
         "ProductCategory": "Boards",
-        "img": "img/products/boards/PMP.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/boards/PMP.png"
     },
     {
         "Title": "RS232-TTL MODULE (RS232 TO TTL MODULE)",
         "ProductCategory": "Boards",
-        "img": "img/products/boards/RS232_TTL.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/boards/RS232_TTL.png"
     },
     {
         "Title": "RS422/TTL-MOD (RS422 TO TTL MODULE)",
         "ProductCategory": "Boards",
-        "img": "img/products/boards/RS422_TTL.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/boards/RS422_TTL.png"
     },
     {
         "Title": "SPLITTER BOARD (WITHOUT MOD)",
         "ProductCategory": "Boards",
-        "img": "img/products/boards/SPLITER.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/boards/SPLITER.png"
     },
     {
         "Title": "TTL-1F-MOD-ST (FIBER MODULE W/ST ENDS)",
         "ProductCategory": "Boards",
-        "img": "img/products/boards/TTL-1F-MOD-ST.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/boards/TTL-1F-MOD-ST.png"
     },
     {
         "Title": "24\" MONITOR ",
         "ProductCategory": "Computer and parts",
-        "img": "img/products/MONITOR.jpg"
+        "img": "https://aei.blob.core.windows.net/pictures/products/MONITOR.jpg"
     },
     {
         "Title": "4 PORT SFP FIBER SWITCH",
         "ProductCategory": "Computer and parts",
-        "img": "img/products/4_PORT_SWITCH.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/4_PORT_SWITCH.png"
     },
     {
         "Title": "CONV-HUB-485-4 (ISOLATED RS485 HUB / SPLITTER / REPEATER)",
@@ -117,37 +117,37 @@
     {
         "Title": "DVI MONITOR CABLE 6'",
         "ProductCategory": "Computer and parts",
-        "img": "img/products/DVI_CABLE.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/DVI_CABLE.png"
     },
     {
         "Title": "INTEGRA CONTROL COMPUTER",
         "ProductCategory": "Computer and parts",
-        "img": "img/products/INTEGRA_COMPUTER.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/INTEGRA_COMPUTER.png"
     },
     {
         "Title": "INTEGRA HOUSE COMPUTER",
         "ProductCategory": "Computer and parts",
-        "img": "img/products/INTEGRA_COMPUTER.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/INTEGRA_COMPUTER.png"
     },
     {
         "Title": "LOGITECH USB KEYBOARD AND MOUSE COMBO",
         "ProductCategory": "Computer and parts",
-        "img": "img/products/KIT.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/KIT.png"
     },
     {
         "Title": "AO ENCLOSURE",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/AO_RELAY.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/AO_RELAY.png"
     },
     {
         "Title": "BIRD SCALE",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/BIRD_SCALE.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/BIRD_SCALE.png"
     },
     {
         "Title": "COUNTER BOX",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/COUNTER_MODULE.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/COUNTER_MODULE.png"
     },
     {
         "Title": "DSS LAYER (DUAL SOURCE SELECTOR)",
@@ -162,12 +162,12 @@
     {
         "Title": "FIBER SWITCH ENCLOSURE",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/FIBER_SWITCH_ENCLOUSURE.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/FIBER_SWITCH_ENCLOUSURE.png"
     },
     {
         "Title": "INTEGRA NV CONTROL STATION 15\" SCREEN",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/NV_CONTROL_STATION.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/NV_CONTROL_STATION.png"
     },
     {
         "Title": "LIGHT DIMMER PANEL 5",
@@ -177,107 +177,107 @@
     {
         "Title": "MCUN (MODBUS)",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/MCUN.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/MCUN.png"
     },
     {
         "Title": "MCUN4 (INLET CONTROL)",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/MCUN4.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/MCUN4.png"
     },
     {
         "Title": "MSCU (MANUAL SPEED CONTROL BOX)",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/MSCU.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/MSCU.png"
     },
     {
         "Title": "MULTI INPUT OUTPUT ENCLOSURE",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/MULTI_IO.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/MULTI_IO.png"
     },
     {
         "Title": "PLC PROCCESSING",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/PLC.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/PLC.png"
     },
     {
         "Title": "PMP-1 (POWER MONITORING PANEL SYSTEM 1)",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/PMP.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/PMP.png"
     },
     {
         "Title": "PSLM 1 (PHASE 1 RELAY 208-480V)",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/PSLM.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/PSLM.png"
     },
     {
         "Title": "PSLM 2 (PHASE LOSS 2 RELAYS 208-480V)",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/PSLM.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/PSLM.png"
     },
     {
         "Title": "RCU-12N (DELUXE RCU WITH 12 WDT RELAYS)",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/RCU36.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/RCU36.png"
     },
     {
         "Title": "RCU-24A (DELUXE BACKUP W/12 WDT RELAYS AND 1 STANDARD RELAY BOARD)",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/RCU36.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/RCU36.png"
     },
     {
         "Title": "RCU-36 (DELUXE BACKUP W/4 WDT RELAY BOARDS AND 1 REGULAR RELAY BOARDS)",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/RCU36.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/RCU36.png"
     },
     {
         "Title": "TSCB-1 (TEMP SENSOR CONNECTOR BOX. FOR ONE SENSOR (MODBUS))",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/TSCB-1.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/TSCB-1.png"
     },
     {
         "Title": "TSCB-1 HM/WP (TSCB-1 FOR HUMIDITY OR WATER PRESSURE SENSOR)",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/TSCB-1.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/TSCB-1.png"
     },
     {
         "Title": "TSCB-2 (TEMP SENSOR CONNECTOR BOX FOR 2 SENSORS (MODBUS))",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/TSCB.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/TSCB.png"
     },
     {
         "Title": "TSCB-2 0-10 (SENSOR CONNECTOR BOX WITH 2 0-10V INPUTS.)",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/TSCB.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/TSCB.png"
     },
     {
         "Title": "TSCB-OUTSIDE WEATHER (TSCB FOR OUTSIDE TEMP AND HUMIDITY)",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/TSCB-1.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/TSCB-1.png"
     },
     {
         "Title": "VSCI-2 (A/B SPLIT CONTROL PANEL 24VDC)",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/VSCI.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/VSCI.png"
     },
     {
         "Title": "VSCI-3 (A/B/C SPLIT ENCLOSURE 24VDC RELAYS)",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/VSCI.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/VSCI.png"
     },
     {
         "Title": "WDT-1A (WATCH DOG TIMER)",
         "ProductCategory": "Controllers and modules",
-        "img": "img/products/WATCH_DOG.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/WATCH_DOG.png"
     },
     {
         "Title": "POWER SUPPLY, AC-DC, 12V, 6.3AM,85-264V",
         "ProductCategory": "Power suppllies",
-        "img": "img/products/POWER_SUPPLY_12.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/POWER_SUPPLY_12.png"
     },
     {
         "Title": "POWER SUPPLY, AC-DC, 24V, 10A,88-264V",
         "ProductCategory": "Power suppllies",
-        "img": "img/products/POWER_SUPPLY_24.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/POWER_SUPPLY_24.png"
     },
     {
         "Title": "ASY-000237 (POWER SUPPLY 110V/230V TO 12.6VDC)",
@@ -312,7 +312,7 @@
     {
         "Title": "MCA-00301 (BINTRAC INDICATOR 6 DIGIT)",
         "ProductCategory": "Scales",
-        "img": "img/products/BINTRAC_INDICATOR.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/BINTRAC_INDICATOR.png"
     },
     {
         "Title": "MIA-000007 (HOUSELINK SCALE INTERFACE)",
@@ -332,37 +332,37 @@
     {
         "Title": "MSA-007000 (7 LOAD CELL SUMMING BOX)",
         "ProductCategory": "Scales",
-        "img": "img/products/MSA007.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/MSA007.png"
     },
     {
         "Title": "MSA-008000 (8 LOAD CELL SUMMING BOX)",
         "ProductCategory": "Scales",
-        "img": "img/products/MSA008.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/MSA008.png"
     },
     {
         "Title": "POW-000005 (HOUSE LINK 232 INTERFACE POWER SUPPLY)",
         "ProductCategory": "Scales",
-        "img": "img/products/POW-000005.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/POW-000005.png"
     },
     {
         "Title": "BACKUP TSTAT ",
         "ProductCategory": "Sensors",
-        "img": "img/products/BACKUP_TSTAT.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/BACKUP_TSTAT.png"
     },
     {
         "Title": "BAF-1 (INLET POSITIONING DEVICE 25\")",
         "ProductCategory": "Sensors",
-        "img": "img/products/BAF-1.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/BAF-1.png"
     },
     {
         "Title": "CO2 SENSOR",
         "ProductCategory": "Sensors",
-        "img": "img/products/CO2_SENSOR.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/CO2_SENSOR.png"
     },
     {
         "Title": "FLOOR STANDING BIRD SCALE (FLOOR PLATFORM SCALE)",
         "ProductCategory": "Sensors",
-        "img": "img/products/FLOOR_SCALE.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/FLOOR_SCALE.png"
     },
     {
         "Title": "HANGING PLATFORM BIRD SCALE (ADJUSTABLE PLATFORM SCALE; CHAIN AND HOOKS; 50LB S LOAD CELL)",
@@ -372,12 +372,12 @@
     {
         "Title": "HUMIDITY SENSOR",
         "ProductCategory": "Sensors",
-        "img": "img/products/HUMIDITY_SENSOR.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/HUMIDITY_SENSOR.png"
     },
     {
         "Title": "RADIATION SHIELD",
         "ProductCategory": "Sensors",
-        "img": "img/products/RADIATION_SHIELD.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/RADIATION_SHIELD.png"
     },
     {
         "Title": "RPM SENSOR",
@@ -397,37 +397,37 @@
     {
         "Title": "STATIC PRESSURE SENSOR",
         "ProductCategory": "Sensors",
-        "img": "img/products/STATIC_PRESSURE_SENSOR.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/STATIC_PRESSURE_SENSOR.png"
     },
     {
         "Title": "TEMP SENSOR 10 FOOT ",
         "ProductCategory": "Sensors",
-        "img": "img/products/TEMPERATURE_SENSOR.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/TEMPERATURE_SENSOR.png"
     },
     {
         "Title": "TEMP SENSOR 20 FOOT ",
         "ProductCategory": "Sensors",
-        "img": "img/products/TEMPERATURE_SENSOR.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/TEMPERATURE_SENSOR.png"
     },
     {
         "Title": "TEMPERATURE SENSOR (10' RTD PROBE)",
         "ProductCategory": "Sensors",
-        "img": "img/products/RTD.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/RTD.png"
     },
     {
         "Title": "WATER METER ACC-RS (REED PULSE SWITCH)",
         "ProductCategory": "Sensors",
-        "img": "img/products/WM_RED_PULSE.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/WM_RED_PULSE.png"
     },
     {
         "Title": "WATER METER 5/8'",
         "ProductCategory": "Sensors",
-        "img": "img/products/WATER_METER.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/WATER_METER.png"
     },
     {
         "Title": "WATER PRESSURE SENSOR",
         "ProductCategory": "Sensors",
-        "img": "img/products/WATER_PRESSURE.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/WATER_PRESSURE.png"
     },
     {
         "Title": "ENCLOSED REACTOR, 480V, 5% , 15A (05P00620-0038)",
@@ -487,61 +487,61 @@
     {
         "Title": "CABLE-010 (10 POSITION RIBBON CABLE FOR A3002/A2011/A3012/A3020)",
         "ProductCategory": "Wires and cables",
-        "img": "img/products/CABLE-010.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/CABLE-010.png"
     },
     {
         "Title": "Assembly kit for EggXact egg counter w/ short and long mounting bracket",
         "ProductCategory": "Egg counters",
-        "img": "img/products/ASSEMBLY_KIT_EC.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/ASSEMBLY_KIT_EC.png"
     },
     {
         "Title": "Assembly kit for EggXact egg counter w/ two long mounting brackets",
         "ProductCategory": "Egg counters",
-        "img": "img/products/ASSEMBLY_KIT_EC.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/ASSEMBLY_KIT_EC.png"
     },
     {
         "Title": "Assembly kit for EggXact egg counter w/ two short mounting brackets",
         "ProductCategory": "Egg counters",
-        "img": "img/products/ASSEMBLY_KIT_EC.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/ASSEMBLY_KIT_EC.png"
     },
     {
         "Title": "Egg counter 12 cm / 4 inch wide",
         "ProductCategory": "Egg counters",
-        "img": "img/products/EGG_COUNTER.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/EGG_COUNTER.png"
     },
     {
         "Title": "Egg counter 20 cm / 8 inch wide",
         "ProductCategory": "Egg counters",
-        "img": "img/products/EGG_COUNTER.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/EGG_COUNTER.png"
     },
     {
         "Title": "Egg counter 30 cm / 12 inch wide",
         "ProductCategory": "Egg counters",
-        "img": "img/products/EGG_COUNTER.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/EGG_COUNTER.png"
     },
     {
         "Title": "Egg counter 40 cm / 16 inch wide",
         "ProductCategory": "Egg counters",
-        "img": "img/products/EGG_COUNTER.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/EGG_COUNTER.png"
     },
     {
         "Title": "Egg counter 50 cm / 20 inch wide",
         "ProductCategory": "Egg counters",
-        "img": "img/products/EGG_COUNTER.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/EGG_COUNTER.png"
     },
     {
         "Title": "Egg counter 60 cm / 24 inch wide",
         "ProductCategory": "Egg counters",
-        "img": "img/products/EGG_COUNTER.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/EGG_COUNTER.png"
     },
     {
         "Title": "Egg counter 70 cm / 28 inch wide",
         "ProductCategory": "Egg counters",
-        "img": "img/products/EGG_COUNTER.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/EGG_COUNTER.png"
     },
     {
         "Title": "Egg counter 80 cm / 32 inch wide",
         "ProductCategory": "Egg counters",
-        "img": "img/products/EGG_COUNTER.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/EGG_COUNTER.png"
     }
 ]
