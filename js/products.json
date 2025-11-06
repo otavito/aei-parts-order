@@ -1,450 +1,547 @@
 [
     {
         "Title": "A3002 (RCU CONTROL BOARD)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/A3002.F.png"
     },
     {
         "Title": "A3006 (MCU CONTROL BOARD)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/A3006.F.png"
     },
     {
         "Title": "A3009 (SPLITTER/8 PORT 485 HUB)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/A3009.F.png"
     },
     {
         "Title": "A3011 (A3011 RCU RELAY BOARD W/ WDT CIRCUIT W/ BOARD CARRIER)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/A3011.F.png"
     },
     {
         "Title": "A3012 (A3012 RCU RELAY BOARD W/ OUT WDT CIRCUIT W/ BOARD CARRIER)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/A3012.F.png"
     },
     {
         "Title": "A3016 (A/B SPLIT BOARD)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": ""
     },
     {
         "Title": "A3017 (8 AO/RELAY MODULE)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/A3017.F.png"
     },
     {
         "Title": "A3019 (MCUN4 INLET INDICATOR BOARD)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/A3019.F.png"
     },
     {
         "Title": "A3020 (MCUN4 INLET BOARD)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/A3020.F.png"
     },
     {
         "Title": "A3021 (AEI BIRD WEB SCALE)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/A3021.F.png"
     },
     {
         "Title": "A3022 (A3022 COUNTER/INPUT BOARD WITH SWITCHED 24V FOR COUNTERS)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/A3022.F.png"
     },
     {
         "Title": "A3026 (A3026 PLC MODULE)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/A3026.F.png"
     },
     {
         "Title": "INLET IND/B (INLET INDICATOR BOARD - 24VDC)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": ""
     },
     {
         "Title": "MCU-IND (MCU INDICATOR BOARD - 24VAC)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": ""
     },
     {
         "Title": "PCB-000076F (TEMP SENSOR BOARD)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/PCB_00076.png"
     },
     {
         "Title": "PMP-1B (PMP BOARD)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/PMP.png"
     },
     {
         "Title": "RS232-TTL MODULE (RS232 TO TTL MODULE)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/RS232_TTL.png"
     },
     {
         "Title": "RS422/TTL-MOD (RS422 TO TTL MODULE)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/RS422_TTL.png"
     },
     {
         "Title": "SPLITTER BOARD (WITHOUT MOD)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/SPLITER.png"
     },
     {
         "Title": "TTL-1F-MOD-ST (FIBER MODULE W/ST ENDS)",
-        "ProductCategory": "Boards"
+        "ProductCategory": "Boards",
+        "img": "img/products/boards/TTL-1F-MOD-ST.png"
     },
     {
         "Title": "24\" MONITOR ",
-        "ProductCategory": "Computer and parts"
+        "ProductCategory": "Computer and parts",
+        "img": "img/products/MONITOR.jpg"
     },
     {
         "Title": "4 PORT SFP FIBER SWITCH",
-        "ProductCategory": "Computer and parts"
+        "ProductCategory": "Computer and parts",
+        "img": "img/products/4_PORT_SWITCH.png"
     },
     {
         "Title": "CONV-HUB-485-4 (ISOLATED RS485 HUB / SPLITTER / REPEATER)",
-        "ProductCategory": "Computer and parts"
+        "ProductCategory": "Computer and parts",
+        "img": ""
     },
     {
         "Title": "DVI MONITOR CABLE 6'",
-        "ProductCategory": "Computer and parts"
+        "ProductCategory": "Computer and parts",
+        "img": "img/products/DVI_CABLE.png"
     },
     {
         "Title": "INTEGRA CONTROL COMPUTER",
-        "ProductCategory": "Computer and parts"
+        "ProductCategory": "Computer and parts",
+        "img": "img/products/INTEGRA_COMPUTER.png"
     },
     {
         "Title": "INTEGRA HOUSE COMPUTER",
-        "ProductCategory": "Computer and parts"
+        "ProductCategory": "Computer and parts",
+        "img": "img/products/INTEGRA_COMPUTER.png"
     },
     {
         "Title": "LOGITECH USB KEYBOARD AND MOUSE COMBO",
-        "ProductCategory": "Computer and parts"
+        "ProductCategory": "Computer and parts",
+        "img": "img/products/KIT.png"
     },
     {
         "Title": "AO ENCLOSURE",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/AO_RELAY.png"
     },
     {
         "Title": "BIRD SCALE",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/BIRD_SCALE.png"
     },
     {
         "Title": "COUNTER BOX",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/COUNTER_MODULE.png"
     },
     {
         "Title": "DSS LAYER (DUAL SOURCE SELECTOR)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": ""
     },
     {
         "Title": "DSS PULLET (DUAL SOURCE SELECTOR)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": ""
     },
     {
         "Title": "FIBER SWITCH ENCLOSURE",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/FIBER_SWITCH_ENCLOUSURE.png"
     },
     {
         "Title": "INTEGRA NV CONTROL STATION 15\" SCREEN",
-        "ProductCategory": "Controllers and modules"
-    },
-    {
-        "Title": "INTRAE CONTROL STATION",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/NV_CONTROL_STATION.png"
     },
     {
         "Title": "LIGHT DIMMER PANEL 5",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": ""
     },
     {
         "Title": "MCUN (MODBUS)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/MCUN.png"
     },
     {
         "Title": "MCUN4 (INLET CONTROL)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/MCUN4.png"
     },
     {
         "Title": "MSCU (MANUAL SPEED CONTROL BOX)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/MSCU.png"
     },
     {
         "Title": "MULTI INPUT OUTPUT ENCLOSURE",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/MULTI_IO.png"
     },
     {
         "Title": "PLC PROCCESSING",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/PLC.png"
     },
     {
         "Title": "PMP-1 (POWER MONITORING PANEL SYSTEM 1)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/PMP.png"
     },
     {
         "Title": "PSLM 1 (PHASE 1 RELAY 208-480V)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/PSLM.png"
     },
     {
         "Title": "PSLM 2 (PHASE LOSS 2 RELAYS 208-480V)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/PSLM.png"
     },
     {
         "Title": "RCU-12N (DELUXE RCU WITH 12 WDT RELAYS)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/RCU36.png"
     },
     {
         "Title": "RCU-24A (DELUXE BACKUP W/12 WDT RELAYS AND 1 STANDARD RELAY BOARD)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/RCU36.png"
     },
     {
         "Title": "RCU-36 (DELUXE BACKUP W/4 WDT RELAY BOARDS AND 1 REGULAR RELAY BOARDS)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/RCU36.png"
     },
     {
         "Title": "TSCB-1 (TEMP SENSOR CONNECTOR BOX. FOR ONE SENSOR (MODBUS))",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/TSCB-1.png"
     },
     {
         "Title": "TSCB-1 HM/WP (TSCB-1 FOR HUMIDITY OR WATER PRESSURE SENSOR)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/TSCB-1.png"
     },
     {
         "Title": "TSCB-2 (TEMP SENSOR CONNECTOR BOX FOR 2 SENSORS (MODBUS))",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/TSCB.png"
     },
     {
         "Title": "TSCB-2 0-10 (SENSOR CONNECTOR BOX WITH 2 0-10V INPUTS.)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/TSCB.png"
     },
     {
         "Title": "TSCB-OUTSIDE WEATHER (TSCB FOR OUTSIDE TEMP AND HUMIDITY)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/TSCB-1.png"
     },
     {
         "Title": "VSCI-2 (A/B SPLIT CONTROL PANEL 24VDC)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/VSCI.png"
     },
     {
         "Title": "VSCI-3 (A/B/C SPLIT ENCLOSURE 24VDC RELAYS)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/VSCI.png"
     },
     {
         "Title": "WDT-1A (WATCH DOG TIMER)",
-        "ProductCategory": "Controllers and modules"
+        "ProductCategory": "Controllers and modules",
+        "img": "img/products/WATCH_DOG.png"
     },
     {
         "Title": "POWER SUPPLY, AC-DC, 12V, 6.3AM,85-264V",
-        "ProductCategory": "Power suppllies"
+        "ProductCategory": "Power suppllies",
+        "img": "img/products/POWER_SUPPLY_12.png"
     },
     {
         "Title": "POWER SUPPLY, AC-DC, 24V, 10A,88-264V",
-        "ProductCategory": "Power suppllies"
+        "ProductCategory": "Power suppllies",
+        "img": "img/products/POWER_SUPPLY_24.png"
     },
     {
         "Title": "ASY-000237 (POWER SUPPLY 110V/230V TO 12.6VDC)",
-        "ProductCategory": "Scales"
+        "ProductCategory": "Scales",
+        "img": ""
     },
     {
         "Title": "CAB-000009 (CABLE 22AWG 4 CONDUCTOR SHIELDED)",
-        "ProductCategory": "Scales"
+        "ProductCategory": "Scales",
+        "img": ""
     },
     {
         "Title": "CAB-000063 (20FT PANCAKE LOAD CELL REPLACEMENT CABLE)",
-        "ProductCategory": "Scales"
+        "ProductCategory": "Scales",
+        "img": ""
     },
     {
         "Title": "F1 PLT W/LC (FLOOR PLATFORM WITH 100KG LOAD CELL)",
-        "ProductCategory": "Scales"
+        "ProductCategory": "Scales",
+        "img": ""
     },
     {
         "Title": "HAR-000050 (8\" CABLE TIE)",
-        "ProductCategory": "Scales"
+        "ProductCategory": "Scales",
+        "img": ""
     },
     {
         "Title": "MCA-000001 (BINTRAC INDICATOR)",
-        "ProductCategory": "Scales"
+        "ProductCategory": "Scales",
+        "img": ""
     },
     {
         "Title": "MCA-00301 (BINTRAC INDICATOR 6 DIGIT)",
-        "ProductCategory": "Scales"
+        "ProductCategory": "Scales",
+        "img": "img/products/BINTRAC_INDICATOR.png"
     },
     {
         "Title": "MIA-000007 (HOUSELINK SCALE INTERFACE)",
-        "ProductCategory": "Scales"
+        "ProductCategory": "Scales",
+        "img": ""
     },
     {
         "Title": "MIA-000008 (MIA-000008 HL-10E HOUSELINK ETHERNET INTERFACE)",
-        "ProductCategory": "Scales"
+        "ProductCategory": "Scales",
+        "img": ""
     },
     {
         "Title": "MLB-200000 (SINGLE 10K LOAD CELL W/ W LEG ADAPTER)",
-        "ProductCategory": "Scales"
+        "ProductCategory": "Scales",
+        "img": ""
     },
     {
         "Title": "MSA-007000 (7 LOAD CELL SUMMING BOX)",
-        "ProductCategory": "Scales"
+        "ProductCategory": "Scales",
+        "img": "img/products/MSA007.png"
     },
     {
         "Title": "MSA-008000 (8 LOAD CELL SUMMING BOX)",
-        "ProductCategory": "Scales"
+        "ProductCategory": "Scales",
+        "img": "img/products/MSA008.png"
     },
     {
         "Title": "POW-000005 (HOUSE LINK 232 INTERFACE POWER SUPPLY)",
-        "ProductCategory": "Scales"
+        "ProductCategory": "Scales",
+        "img": "img/products/POW-000005.png"
     },
     {
         "Title": "BACKUP TSTAT ",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": "img/products/BACKUP_TSTAT.png"
     },
     {
         "Title": "BAF-1 (INLET POSITIONING DEVICE 25\")",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": "img/products/BAF-1.png"
     },
     {
         "Title": "CO2 SENSOR",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": "img/products/CO2_SENSOR.png"
     },
     {
         "Title": "FLOOR STANDING BIRD SCALE (FLOOR PLATFORM SCALE)",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": "img/products/FLOOR_SCALE.png"
     },
     {
         "Title": "HANGING PLATFORM BIRD SCALE (ADJUSTABLE PLATFORM SCALE; CHAIN AND HOOKS; 50LB S LOAD CELL)",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": ""
     },
     {
         "Title": "HUMIDITY SENSOR",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": "img/products/HUMIDITY_SENSOR.png"
     },
     {
         "Title": "RADIATION SHIELD",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": "img/products/RADIATION_SHIELD.png"
     },
     {
         "Title": "RPM SENSOR",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": ""
     },
     {
         "Title": "SENSOR CONNECTOR BOX (SCB-0-10V)",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": ""
     },
     {
         "Title": "SENSOR CONNECTOR BOX (SCB-1 TEMP SENSOR)",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": ""
     },
     {
         "Title": "STATIC PRESSURE SENSOR",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": "img/products/STATIC_PRESSURE_SENSOR.png"
     },
     {
         "Title": "TEMP SENSOR 10 FOOT ",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": "img/products/TEMPERATURE_SENSOR.png"
     },
     {
         "Title": "TEMP SENSOR 20 FOOT ",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": "img/products/TEMPERATURE_SENSOR.png"
     },
     {
         "Title": "TEMPERATURE SENSOR (10' RTD PROBE)",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": "img/products/RTD.png"
     },
     {
         "Title": "WATER METER ACC-RS (REED PULSE SWITCH)",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": "img/products/WM_RED_PULSE.png"
     },
     {
         "Title": "WATER METER 5/8'",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": "img/products/WATER_METER.png"
     },
     {
         "Title": "WATER PRESSURE SENSOR",
-        "ProductCategory": "Sensors"
+        "ProductCategory": "Sensors",
+        "img": "img/products/WATER_PRESSURE.png"
     },
     {
         "Title": "ENCLOSED REACTOR, 480V, 5% , 15A (05P00620-0038)",
-        "ProductCategory": "Speed drives"
+        "ProductCategory": "Speed drives",
+        "img": ""
     },
     {
         "Title": "INDUCT,RCTR,AC,3PH,1.2MH,600V (05P00620-0042)",
-        "ProductCategory": "Speed drives"
+        "ProductCategory": "Speed drives",
+        "img": ""
     },
     {
         "Title": "YEA V1000 230V 7.5 HP NEMA 4X (CIMR-VU2A0030GAA)",
-        "ProductCategory": "Speed drives"
+        "ProductCategory": "Speed drives",
+        "img": ""
     },
     {
         "Title": "YEA V100 3PH 480V 7.5HP NEMA 4X (CIMR-VU4A0011GAA)",
-        "ProductCategory": "Speed drives"
+        "ProductCategory": "Speed drives",
+        "img": ""
     },
     {
         "Title": "YEA V1000 480V 15 HP NEMA 1X (CIMR-VU4A0023FAA)",
-        "ProductCategory": "Speed drives"
+        "ProductCategory": "Speed drives",
+        "img": ""
     },
     {
         "Title": "YEA HEAVY DUTY SPEED DRIVE 480V 15HP 24A NEMA 4X (CIMR-VU4A0023GAA)",
-        "ProductCategory": "Speed drives"
+        "ProductCategory": "Speed drives",
+        "img": ""
     },
     {
         "Title": "YEA 460V 20HP NEMA 4X (CIMR-VU4A0031GAA)",
-        "ProductCategory": "Speed drives"
+        "ProductCategory": "Speed drives",
+        "img": ""
     },
     {
         "Title": "YEA 230V 5HP NEMA 4X (CIMR-VU2A0020GAA)",
-        "ProductCategory": "Speed drives"
+        "ProductCategory": "Speed drives",
+        "img": ""
     },
     {
         "Title": "YEA 480V 5HP NEMA 4X (CIMR-VU4A0009GAA)",
-        "ProductCategory": "Speed drives"
+        "ProductCategory": "Speed drives",
+        "img": ""
     },
     {
         "Title": "YEA 230V 10HP NEMA 4X (CIMR-VU2A0040GAA)",
-        "ProductCategory": "Speed drives"
+        "ProductCategory": "Speed drives",
+        "img": ""
     },
     {
         "Title": "YEA 460V 10HP NEMA 4X (CIMR-VU4A0018GAA)",
-        "ProductCategory": "Speed drives"
+        "ProductCategory": "Speed drives",
+        "img": ""
     },
     {
         "Title": "CABLE-010 (10 POSITION RIBBON CABLE FOR A3002/A2011/A3012/A3020)",
-        "ProductCategory": "Wires and cables"
-    },
-    {
-        "Title": "FIB-KIT3 (THE OPTICAM\u00ae 2 TERMINATION TOOL KIT INCLUDES ALL OF THE ACCESS...) - OTHER",
-        "ProductCategory": "Wires and cables"
-    },
-    {
-        "Title": "VSUAL FAULT LOCATOR (POCKET VISUAL FAULT  LOCATOR (PFL/VFL)  2.5MM ADAPTER +  1.2...",
-        "ProductCategory": "Wires and cables"
+        "ProductCategory": "Wires and cables",
+        "img": "img/products/CABLE-010.png"
     },
     {
         "Title": "Assembly kit for EggXact egg counter w/ short and long mounting bracket",
-        "ProductCategory": "Egg counters"
+        "ProductCategory": "Egg counters",
+        "img": "img/products/ASSEMBLY_KIT_EC.png"
     },
     {
         "Title": "Assembly kit for EggXact egg counter w/ two long mounting brackets",
-        "ProductCategory": "Egg counters"
+        "ProductCategory": "Egg counters",
+        "img": "img/products/ASSEMBLY_KIT_EC.png"
     },
     {
         "Title": "Assembly kit for EggXact egg counter w/ two short mounting brackets",
-        "ProductCategory": "Egg counters"
+        "ProductCategory": "Egg counters",
+        "img": "img/products/ASSEMBLY_KIT_EC.png"
     },
     {
         "Title": "Egg counter 12 cm / 4 inch wide",
-        "ProductCategory": "Egg counters"
+        "ProductCategory": "Egg counters",
+        "img": "img/products/EGG_COUNTER.png"
     },
     {
         "Title": "Egg counter 20 cm / 8 inch wide",
-        "ProductCategory": "Egg counters"
+        "ProductCategory": "Egg counters",
+        "img": "img/products/EGG_COUNTER.png"
     },
     {
         "Title": "Egg counter 30 cm / 12 inch wide",
-        "ProductCategory": "Egg counters"
+        "ProductCategory": "Egg counters",
+        "img": "img/products/EGG_COUNTER.png"
     },
     {
         "Title": "Egg counter 40 cm / 16 inch wide",
-        "ProductCategory": "Egg counters"
+        "ProductCategory": "Egg counters",
+        "img": "img/products/EGG_COUNTER.png"
     },
     {
         "Title": "Egg counter 50 cm / 20 inch wide",
-        "ProductCategory": "Egg counters"
+        "ProductCategory": "Egg counters",
+        "img": "img/products/EGG_COUNTER.png"
     },
     {
         "Title": "Egg counter 60 cm / 24 inch wide",
-        "ProductCategory": "Egg counters"
+        "ProductCategory": "Egg counters",
+        "img": "img/products/EGG_COUNTER.png"
     },
     {
         "Title": "Egg counter 70 cm / 28 inch wide",
-        "ProductCategory": "Egg counters"
+        "ProductCategory": "Egg counters",
+        "img": "img/products/EGG_COUNTER.png"
     },
     {
         "Title": "Egg counter 80 cm / 32 inch wide",
-        "ProductCategory": "Egg counters"
+        "ProductCategory": "Egg counters",
+        "img": "img/products/EGG_COUNTER.png"
     }
 ]

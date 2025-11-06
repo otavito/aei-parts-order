@@ -34,7 +34,13 @@
             <h1>Parts ordering</h1>
             <p>Welcome to our Parts Ordering page! Please select the AEI parts and components you would like to order.
                 Once your order is submitted, you will receive a confirmation email. One of our team members will then
-                contact you with the final details.</p>
+                contact you with the final details.
+            </p>
+
+            <p
+                style="color: rgb(0, 0, 0);font-size: 18px;">
+                Some pictures might be out of date or vary according to your product version. Always check the description or ask our team for more information.
+            </p>
 
             <div class="search-container">
                 <input type="text" id="searchInput" placeholder="Search for parts or components...">
@@ -58,14 +64,21 @@
     <footer>
         <div class="footer-text">
             <h3 style="margin: 10px 0px;">Having trouble with one of our products? </h6>
-            <p>We look forward to helping you! Visit our dedicated <b>Help Center</b> for guidance.<br>
-            If you can’t find a solution there, feel free to open a support ticket.<br> Our team will be happy to assist you!</p>
-            <a href="https://munters-aei.zendesk.com/hc/en-us" target="_blank"> <button>Go to Help Center</button></a>
+                <p>We look forward to helping you! Visit our dedicated <b>Help Center</b> for guidance.<br>
+                    If you can’t find a solution there, feel free to open a support ticket.<br> Our team will be happy
+                    to assist you!</p>
+                <a href="https://munters-aei.zendesk.com/hc/en-us" target="_blank"> <button>Go to Help
+                        Center</button></a>
         </div>
         <div class="footer-logo">
             <img src="/img/zendesk.png" alt="">
         </div>
     </footer>
+
+    <div id="lightbox" class="lightbox">
+        <img id="lightbox-img" src="">
+    </div>
+
 
 </body>
 
@@ -99,6 +112,7 @@
                     produtoDiv.classList.add("produto");
 
                     produtoDiv.innerHTML = `
+                    <img src="${prod.img}" class="product-image">
                     <span>${prod.Title}</span>
                     <div class="contador">
                         <button class="menos">-</button>
@@ -225,6 +239,21 @@
             }
         });
     });
+
+    document.addEventListener('click', function (e) {
+        if (e.target.classList.contains('product-image')) {
+            const lightbox = document.getElementById("lightbox");
+            const lightboxImg = document.getElementById("lightbox-img");
+
+            lightboxImg.src = e.target.src;
+            lightbox.style.display = "flex";
+        }
+    });
+
+    document.getElementById("lightbox").addEventListener('click', function () {
+        this.style.display = "none";
+    });
+
 
     document.addEventListener("DOMContentLoaded", () => {
         carregarProdutos().then(() => verificarCarrinhoAtivo());
