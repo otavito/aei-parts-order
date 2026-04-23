@@ -120,6 +120,11 @@
         "img": "https://aei.blob.core.windows.net/pictures/products/DVI_CABLE.png"
     },
     {
+        "Title": "USB Drive",
+        "ProductCategory": "Computer and parts",
+        "img": "https://aei.blob.core.windows.net/pictures/products/USB Drive.svg"
+    },
+    {
         "Title": "INTEGRA CONTROL COMPUTER",
         "ProductCategory": "Computer and parts",
         "img": "https://aei.blob.core.windows.net/pictures/products/INTEGRA_COMPUTER.png"
@@ -132,7 +137,7 @@
     {
         "Title": "LOGITECH USB KEYBOARD AND MOUSE COMBO",
         "ProductCategory": "Computer and parts",
-        "img": "https://aei.blob.core.windows.net/pictures/products/KIT.png"
+        "img": "https://aei.blob.core.windows.net/pictures/products/KIT.PNG"
     },
     {
         "Title": "AO ENCLOSURE",
