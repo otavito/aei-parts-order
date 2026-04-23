@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
     form.addEventListener("submit", async function (event) {
         event.preventDefault();
 
-        // Mostra mensagem enquanto o pedido é enviado
         submitMessage.style.display = "block";
+        submitMessage.textContent = "Submitting request...";
 
         const requestType = document.querySelector('input[name="requestType"]:checked')?.value || "";
 
@@ -25,38 +25,20 @@ document.addEventListener("DOMContentLoaded", () => {
                     cidade: document.getElementById("city").value,
                     state: document.getElementById("state").value,
                     cep: document.getElementById("zip").value
-                },
-                instrucoes: document.getElementById("instructions").value
+                }
             },
             carrinho: JSON.parse(localStorage.getItem("carrinho")) || {}
         };
 
-        const itemsHtml = Object.entries(pedido.carrinho)
-            .map(([nome, qtd]) => `<li>${nome} — ${qtd}</li>`)
-            .join("");
+        const items = Object.entries(pedido.carrinho).map(([item, qty]) => ({
+            item,
+            qty
+        }));
 
-        const message = `
-<h1>New Parts Request</h1>
-
-<p><strong>Customer Data</strong><br>
-Organization: ${pedido.dadosCliente.organization}<br>
-Site: ${pedido.dadosCliente.site}<br>
-Name: ${pedido.dadosCliente.nome}<br>
-Email: ${pedido.dadosCliente.email}<br>
-Phone: ${pedido.dadosCliente.telefone}<br>
-PO: ${pedido.dadosCliente.po}<br>
-Request type: ${pedido.dadosCliente.requestType === "order" ? "I want to order these items" : "I want to quote these items"}</p>
-
-<p><strong>Shipping Address</strong><br>
-${pedido.dadosCliente.endereco.rua}, ${pedido.dadosCliente.endereco.apt || ""}<br>
-${pedido.dadosCliente.endereco.cidade} - ${pedido.dadosCliente.endereco.state}, ${pedido.dadosCliente.endereco.cep}</p>
-
-<p><strong>Items Ordered</strong></p>
-<ul>${itemsHtml}</ul>
-
-<p><strong>Special Instructions</strong><br>
-${pedido.dadosCliente.instrucoes || "None"}</p>
-`;
+        const shipmentAddress = [
+            `${pedido.dadosCliente.endereco.rua}${pedido.dadosCliente.endereco.apt ? ", " + pedido.dadosCliente.endereco.apt : ""}`,
+            `${pedido.dadosCliente.endereco.cidade} - ${pedido.dadosCliente.endereco.state}, ${pedido.dadosCliente.endereco.cep}`
+        ].join("\n");
 
         try {
             const FUNCTION_URL = "https://partsorder-api-hne6dzfudubdfvg0.westus3-01.azurewebsites.net/api/sendEmail";
@@ -67,8 +49,19 @@ ${pedido.dadosCliente.instrucoes || "None"}</p>
                 body: JSON.stringify({
                     to: pedido.dadosCliente.email,
                     subject: "AEI - Parts Request Confirmation",
-                    message: message,
-                    isHtml: true
+                    customerData: {
+                        organization: pedido.dadosCliente.organization,
+                        site: pedido.dadosCliente.site,
+                        name: pedido.dadosCliente.nome,
+                        email: pedido.dadosCliente.email,
+                        phone: pedido.dadosCliente.telefone,
+                        po: pedido.dadosCliente.po,
+                        requestType: pedido.dadosCliente.requestType === "order"
+                            ? "I want to order these items"
+                            : "I want to quote these items"
+                    },
+                    items,
+                    shipmentAddress
                 })
             });
 
@@ -79,13 +72,13 @@ ${pedido.dadosCliente.instrucoes || "None"}</p>
                 localStorage.removeItem("carrinho");
 
                 submitMessage.textContent = "Order submitted successfully!";
-                submitMessage.style.backgroundColor = "#007bff"; 
+                submitMessage.style.backgroundColor = "#007bff";
 
                 setTimeout(() => {
                     window.location.href = "confirmation.html";
                 }, 1500);
             } else {
-                alert("Something went wrong: " + (data?.body || response.statusText));
+                alert("Something went wrong: " + (data?.error || data?.message || response.statusText));
                 submitMessage.style.display = "none";
             }
         } catch (err) {
